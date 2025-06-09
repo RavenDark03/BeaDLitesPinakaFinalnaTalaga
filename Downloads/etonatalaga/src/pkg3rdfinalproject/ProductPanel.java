@@ -44,7 +44,7 @@ public class ProductPanel extends javax.swing.JFrame {
         doneButton = new javax.swing.JToggleButton();
         productQuantityMinusBtn = new javax.swing.JButton();
         productQuantityPlusButton = new javax.swing.JButton();
-        mangoBravoQuantity = new javax.swing.JLabel();
+        quantityLabel = new javax.swing.JLabel();
         jLabel73 = new javax.swing.JLabel();
         jLabel74 = new javax.swing.JLabel();
         CancelButton = new javax.swing.JToggleButton();
@@ -154,10 +154,10 @@ public class ProductPanel extends javax.swing.JFrame {
             }
         });
 
-        mangoBravoQuantity.setFont(new java.awt.Font("Segoe UI Black", 1, 24)); // NOI18N
-        mangoBravoQuantity.setForeground(new java.awt.Color(225, 135, 44));
-        mangoBravoQuantity.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        mangoBravoQuantity.setText("0");
+        quantityLabel.setFont(new java.awt.Font("Segoe UI Black", 1, 24)); // NOI18N
+        quantityLabel.setForeground(new java.awt.Color(225, 135, 44));
+        quantityLabel.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        quantityLabel.setText("0");
 
         jLabel73.setFont(new java.awt.Font("Segoe UI Black", 1, 18)); // NOI18N
         jLabel73.setForeground(new java.awt.Color(225, 135, 44));
@@ -182,7 +182,7 @@ public class ProductPanel extends javax.swing.JFrame {
                         .addGap(159, 159, 159)
                         .addComponent(productQuantityMinusBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(18, 18, 18)
-                        .addComponent(mangoBravoQuantity, javax.swing.GroupLayout.PREFERRED_SIZE, 65, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(quantityLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 65, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(18, 18, 18)
                         .addComponent(productQuantityPlusButton, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(jPanel4Layout.createSequentialGroup()
@@ -246,7 +246,7 @@ public class ProductPanel extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(productQuantityMinusBtn)
-                    .addComponent(mangoBravoQuantity)
+                    .addComponent(quantityLabel)
                     .addComponent(productQuantityPlusButton))
                 .addGap(103, 103, 103)
                 .addComponent(doneButton, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -384,9 +384,9 @@ public class ProductPanel extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel5;
     private javax.swing.JPanel jPanel9;
     private javax.swing.JScrollPane jScrollPane1;
-    private javax.swing.JLabel mangoBravoQuantity;
     private javax.swing.JButton productQuantityMinusBtn;
     private javax.swing.JButton productQuantityPlusButton;
+    private javax.swing.JLabel quantityLabel;
     private javax.swing.JToggleButton sizeButton;
     private javax.swing.JToggleButton sizeButton2;
     private javax.swing.JToggleButton sizeButton3;
