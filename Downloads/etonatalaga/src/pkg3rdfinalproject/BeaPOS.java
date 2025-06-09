@@ -1403,76 +1403,73 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
         jPanel9 = new javax.swing.JPanel();
         jLabel43 = new javax.swing.JLabel();
         AddMangoBravoToPanel = new javax.swing.JButton();
-        jLabel10 = new javax.swing.JLabel();
+        MangoBravolabel = new javax.swing.JLabel();
         jPanel16 = new javax.swing.JPanel();
         jPanel17 = new javax.swing.JPanel();
         jLabel45 = new javax.swing.JLabel();
         AddRedVelvetCakeToPanel = new javax.swing.JButton();
-        jLabel11 = new javax.swing.JLabel();
+        RedVelvetCakelabel = new javax.swing.JLabel();
         jPanel23 = new javax.swing.JPanel();
         jPanel24 = new javax.swing.JPanel();
         jLabel49 = new javax.swing.JLabel();
         AddStrawberryShortCakeToPanel = new javax.swing.JButton();
-        jLabel12 = new javax.swing.JLabel();
-        jLabel13 = new javax.swing.JLabel();
+        StrawberryShortCakelabel = new javax.swing.JLabel();
         jPanel51 = new javax.swing.JPanel();
         jPanel52 = new javax.swing.JPanel();
         jLabel82 = new javax.swing.JLabel();
         AddBentoCakeToPanel = new javax.swing.JButton();
-        jLabel14 = new javax.swing.JLabel();
+        BentoCakelabel = new javax.swing.JLabel();
         jPanel27 = new javax.swing.JPanel();
         jPanel28 = new javax.swing.JPanel();
         jLabel53 = new javax.swing.JLabel();
         AddCaramelFlanDeLecheCakeToPanel = new javax.swing.JButton();
-        jLabel16 = new javax.swing.JLabel();
-        jLabel17 = new javax.swing.JLabel();
+        Caramelflandelechecakelabel = new javax.swing.JLabel();
         jPanel31 = new javax.swing.JPanel();
         jPanel32 = new javax.swing.JPanel();
         jLabel58 = new javax.swing.JLabel();
         AddCheeseCakeToPanel = new javax.swing.JButton();
-        jLabel15 = new javax.swing.JLabel();
+        CheeseCakelabel = new javax.swing.JLabel();
         jPanel35 = new javax.swing.JPanel();
         jPanel36 = new javax.swing.JPanel();
         jLabel63 = new javax.swing.JLabel();
         AddSliceCheeseCakeToPanel = new javax.swing.JButton();
-        jLabel19 = new javax.swing.JLabel();
+        SliceCheeseCakelabel = new javax.swing.JLabel();
         jPanel39 = new javax.swing.JPanel();
         jPanel40 = new javax.swing.JPanel();
         jLabel68 = new javax.swing.JLabel();
         AddMangoBravoTubToPanel = new javax.swing.JButton();
-        jLabel18 = new javax.swing.JLabel();
+        MangoBravoTublabel = new javax.swing.JLabel();
         jPanel43 = new javax.swing.JPanel();
         jPanel44 = new javax.swing.JPanel();
         jLabel74 = new javax.swing.JLabel();
         AddMiniCupcakeToPanel = new javax.swing.JButton();
-        jLabel20 = new javax.swing.JLabel();
+        MiniCupcakelabel = new javax.swing.JLabel();
         jPanel47 = new javax.swing.JPanel();
         jPanel48 = new javax.swing.JPanel();
         jLabel78 = new javax.swing.JLabel();
         AddPiscesCupcakeToPanel = new javax.swing.JButton();
-        jLabel21 = new javax.swing.JLabel();
+        PiscesCupcakelabel = new javax.swing.JLabel();
         jPanel55 = new javax.swing.JPanel();
         jPanel56 = new javax.swing.JPanel();
         jLabel67 = new javax.swing.JLabel();
         AddIcingCustomCakeToPanel = new javax.swing.JButton();
-        jLabel22 = new javax.swing.JLabel();
+        IcingCustomCakelabel = new javax.swing.JLabel();
         jPanel84 = new javax.swing.JPanel();
         jPanel85 = new javax.swing.JPanel();
         jLabel70 = new javax.swing.JLabel();
         AddMinimalistCustomCakeToPanel = new javax.swing.JButton();
-        jLabel23 = new javax.swing.JLabel();
+        MinimalistCustomCakelabel = new javax.swing.JLabel();
         jLabel24 = new javax.swing.JLabel();
         jPanel88 = new javax.swing.JPanel();
         jPanel89 = new javax.swing.JPanel();
         jLabel77 = new javax.swing.JLabel();
         AddFondantCustomCakeToPanel = new javax.swing.JButton();
-        jLabel25 = new javax.swing.JLabel();
-        jLabel26 = new javax.swing.JLabel();
+        FondantCustomCakelabel = new javax.swing.JLabel();
         jPanel92 = new javax.swing.JPanel();
         jPanel93 = new javax.swing.JPanel();
         jLabel73 = new javax.swing.JLabel();
         AddYemaCakeToPanel = new javax.swing.JButton();
-        jLabel27 = new javax.swing.JLabel();
+        YemaCakelabel = new javax.swing.JLabel();
         jPanel11 = new javax.swing.JPanel();
         jScrollPane2 = new javax.swing.JScrollPane();
         breadsandsweetsPanel = new javax.swing.JPanel();
@@ -1480,34 +1477,33 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
         jPanel60 = new javax.swing.JPanel();
         jLabel48 = new javax.swing.JLabel();
         AddUbeCheesedesalToPanel = new javax.swing.JButton();
-        UbeCheesedesal = new javax.swing.JLabel();
+        UbeCheesedesallabel = new javax.swing.JLabel();
         jPanel63 = new javax.swing.JPanel();
         jPanel64 = new javax.swing.JPanel();
         jLabel62 = new javax.swing.JLabel();
         AddBananaLoafToPanel = new javax.swing.JButton();
-        BananaLoaf = new javax.swing.JLabel();
+        BananaLoaflabel = new javax.swing.JLabel();
         jPanel67 = new javax.swing.JPanel();
         jPanel68 = new javax.swing.JPanel();
         jLabel86 = new javax.swing.JLabel();
         AddBrowniesToPanel = new javax.swing.JButton();
-        Brownies = new javax.swing.JLabel();
+        Brownieslabel = new javax.swing.JLabel();
         jPanel72 = new javax.swing.JPanel();
         jPanel73 = new javax.swing.JPanel();
         jLabel89 = new javax.swing.JLabel();
         AddClassicCinnamonRollToPanel = new javax.swing.JButton();
-        ClassicCinnamon = new javax.swing.JLabel();
-        Roll = new javax.swing.JLabel();
+        ClassicCinnamonlabel = new javax.swing.JLabel();
         jPanel76 = new javax.swing.JPanel();
         jPanel77 = new javax.swing.JPanel();
         jLabel92 = new javax.swing.JLabel();
         AddMilkyCheeseDonutToPanel = new javax.swing.JButton();
-        MilkyCheese = new javax.swing.JLabel();
+        MilkyCheeseDonutlabel = new javax.swing.JLabel();
         Donut = new javax.swing.JLabel();
         jPanel80 = new javax.swing.JPanel();
         jPanel81 = new javax.swing.JPanel();
         jLabel95 = new javax.swing.JLabel();
         AddBananaMuffinToPanel = new javax.swing.JButton();
-        BananaMuffin = new javax.swing.JLabel();
+        BananaMuffinlabel = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DO_NOTHING_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -1788,10 +1784,10 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
             }
         });
 
-        jLabel10.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jLabel10.setForeground(new java.awt.Color(225, 135, 44));
-        jLabel10.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel10.setText("Mango Bravo");
+        MangoBravolabel.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        MangoBravolabel.setForeground(new java.awt.Color(225, 135, 44));
+        MangoBravolabel.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        MangoBravolabel.setText("Mango Bravo");
 
         javax.swing.GroupLayout jPanel15Layout = new javax.swing.GroupLayout(jPanel15);
         jPanel15.setLayout(jPanel15Layout);
@@ -1802,7 +1798,7 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
                 .addComponent(jPanel9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel10, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(MangoBravolabel, javax.swing.GroupLayout.DEFAULT_SIZE, 148, Short.MAX_VALUE)
                     .addComponent(AddMangoBravoToPanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap())
         );
@@ -1812,7 +1808,7 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
                 .addContainerGap()
                 .addGroup(jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel15Layout.createSequentialGroup()
-                        .addComponent(jLabel10, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(MangoBravolabel, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(AddMangoBravoToPanel, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addComponent(jPanel9, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
@@ -1849,10 +1845,10 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
         AddRedVelvetCakeToPanel.setForeground(new java.awt.Color(225, 135, 44));
         AddRedVelvetCakeToPanel.setText("ADD");
 
-        jLabel11.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jLabel11.setForeground(new java.awt.Color(225, 135, 44));
-        jLabel11.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel11.setText("RedVelvet Cake");
+        RedVelvetCakelabel.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        RedVelvetCakelabel.setForeground(new java.awt.Color(225, 135, 44));
+        RedVelvetCakelabel.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        RedVelvetCakelabel.setText("RedVelvet Cake");
 
         javax.swing.GroupLayout jPanel16Layout = new javax.swing.GroupLayout(jPanel16);
         jPanel16.setLayout(jPanel16Layout);
@@ -1865,8 +1861,8 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
                 .addGroup(jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel16Layout.createSequentialGroup()
                         .addComponent(AddRedVelvetCakeToPanel, javax.swing.GroupLayout.PREFERRED_SIZE, 145, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(0, 0, Short.MAX_VALUE))
-                    .addComponent(jLabel11, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                        .addGap(0, 3, Short.MAX_VALUE))
+                    .addComponent(RedVelvetCakelabel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap())
         );
         jPanel16Layout.setVerticalGroup(
@@ -1876,7 +1872,7 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
                 .addGroup(jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
                     .addComponent(jPanel17, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addGroup(jPanel16Layout.createSequentialGroup()
-                        .addComponent(jLabel11, javax.swing.GroupLayout.PREFERRED_SIZE, 54, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(RedVelvetCakelabel, javax.swing.GroupLayout.PREFERRED_SIZE, 54, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(AddRedVelvetCakeToPanel, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap(10, Short.MAX_VALUE))
@@ -1911,15 +1907,10 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
         AddStrawberryShortCakeToPanel.setForeground(new java.awt.Color(225, 135, 44));
         AddStrawberryShortCakeToPanel.setText("ADD");
 
-        jLabel12.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jLabel12.setForeground(new java.awt.Color(225, 135, 44));
-        jLabel12.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel12.setText("Strawberry");
-
-        jLabel13.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jLabel13.setForeground(new java.awt.Color(225, 135, 44));
-        jLabel13.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel13.setText("ShortCake");
+        StrawberryShortCakelabel.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        StrawberryShortCakelabel.setForeground(new java.awt.Color(225, 135, 44));
+        StrawberryShortCakelabel.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        StrawberryShortCakelabel.setText("<html>Strawberry<br>ShortCake</html>");
 
         javax.swing.GroupLayout jPanel23Layout = new javax.swing.GroupLayout(jPanel23);
         jPanel23.setLayout(jPanel23Layout);
@@ -1930,8 +1921,7 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
                 .addComponent(jPanel24, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel23Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel12, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel13, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(StrawberryShortCakelabel)
                     .addGroup(jPanel23Layout.createSequentialGroup()
                         .addGap(0, 0, Short.MAX_VALUE)
                         .addComponent(AddStrawberryShortCakeToPanel, javax.swing.GroupLayout.PREFERRED_SIZE, 145, javax.swing.GroupLayout.PREFERRED_SIZE)))
@@ -1943,9 +1933,7 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
                 .addContainerGap()
                 .addGroup(jPanel23Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel23Layout.createSequentialGroup()
-                        .addComponent(jLabel12)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel13)
+                        .addComponent(StrawberryShortCakelabel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(AddStrawberryShortCakeToPanel, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addComponent(jPanel24, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
@@ -1980,10 +1968,10 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
         AddBentoCakeToPanel.setForeground(new java.awt.Color(225, 135, 44));
         AddBentoCakeToPanel.setText("ADD");
 
-        jLabel14.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jLabel14.setForeground(new java.awt.Color(225, 135, 44));
-        jLabel14.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel14.setText("Bento Cake");
+        BentoCakelabel.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        BentoCakelabel.setForeground(new java.awt.Color(225, 135, 44));
+        BentoCakelabel.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        BentoCakelabel.setText("Bento Cake");
 
         javax.swing.GroupLayout jPanel51Layout = new javax.swing.GroupLayout(jPanel51);
         jPanel51.setLayout(jPanel51Layout);
@@ -1995,7 +1983,7 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel51Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(AddBentoCakeToPanel, javax.swing.GroupLayout.DEFAULT_SIZE, 145, Short.MAX_VALUE)
-                    .addComponent(jLabel14, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(BentoCakelabel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addGap(0, 0, Short.MAX_VALUE))
         );
         jPanel51Layout.setVerticalGroup(
@@ -2004,7 +1992,7 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
                 .addContainerGap()
                 .addGroup(jPanel51Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addGroup(jPanel51Layout.createSequentialGroup()
-                        .addComponent(jLabel14, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(BentoCakelabel, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 17, Short.MAX_VALUE)
                         .addComponent(AddBentoCakeToPanel, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addComponent(jPanel52, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
@@ -2039,15 +2027,10 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
         AddCaramelFlanDeLecheCakeToPanel.setForeground(new java.awt.Color(225, 135, 44));
         AddCaramelFlanDeLecheCakeToPanel.setText("ADD");
 
-        jLabel16.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jLabel16.setForeground(new java.awt.Color(225, 135, 44));
-        jLabel16.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel16.setText("Caramel flan de");
-
-        jLabel17.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jLabel17.setForeground(new java.awt.Color(225, 135, 44));
-        jLabel17.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel17.setText("leche cake");
+        Caramelflandelechecakelabel.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        Caramelflandelechecakelabel.setForeground(new java.awt.Color(225, 135, 44));
+        Caramelflandelechecakelabel.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        Caramelflandelechecakelabel.setText("<html>Caramel flan de<br>leche cake</html> ");
 
         javax.swing.GroupLayout jPanel27Layout = new javax.swing.GroupLayout(jPanel27);
         jPanel27.setLayout(jPanel27Layout);
@@ -2061,8 +2044,7 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
                     .addGroup(jPanel27Layout.createSequentialGroup()
                         .addComponent(AddCaramelFlanDeLecheCakeToPanel, javax.swing.GroupLayout.PREFERRED_SIZE, 145, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(0, 0, Short.MAX_VALUE))
-                    .addComponent(jLabel16, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel17, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(Caramelflandelechecakelabel, javax.swing.GroupLayout.Alignment.TRAILING))
                 .addContainerGap())
         );
         jPanel27Layout.setVerticalGroup(
@@ -2071,9 +2053,7 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
                 .addContainerGap()
                 .addGroup(jPanel27Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addGroup(jPanel27Layout.createSequentialGroup()
-                        .addComponent(jLabel16)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel17)
+                        .addComponent(Caramelflandelechecakelabel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(AddCaramelFlanDeLecheCakeToPanel, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addComponent(jPanel28, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
@@ -2109,10 +2089,10 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
         AddCheeseCakeToPanel.setForeground(new java.awt.Color(225, 135, 44));
         AddCheeseCakeToPanel.setText("ADD");
 
-        jLabel15.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jLabel15.setForeground(new java.awt.Color(225, 135, 44));
-        jLabel15.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel15.setText("CheeseCake");
+        CheeseCakelabel.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        CheeseCakelabel.setForeground(new java.awt.Color(225, 135, 44));
+        CheeseCakelabel.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        CheeseCakelabel.setText("CheeseCake");
 
         javax.swing.GroupLayout jPanel31Layout = new javax.swing.GroupLayout(jPanel31);
         jPanel31.setLayout(jPanel31Layout);
@@ -2124,7 +2104,7 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel31Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(AddCheeseCakeToPanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel15, javax.swing.GroupLayout.DEFAULT_SIZE, 145, Short.MAX_VALUE))
+                    .addComponent(CheeseCakelabel, javax.swing.GroupLayout.DEFAULT_SIZE, 145, Short.MAX_VALUE))
                 .addGap(0, 0, Short.MAX_VALUE))
         );
         jPanel31Layout.setVerticalGroup(
@@ -2133,7 +2113,7 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
                 .addContainerGap()
                 .addGroup(jPanel31Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addGroup(jPanel31Layout.createSequentialGroup()
-                        .addComponent(jLabel15, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(CheeseCakelabel, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(AddCheeseCakeToPanel, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addComponent(jPanel32, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE))
@@ -2169,10 +2149,10 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
         AddSliceCheeseCakeToPanel.setForeground(new java.awt.Color(225, 135, 44));
         AddSliceCheeseCakeToPanel.setText("ADD");
 
-        jLabel19.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jLabel19.setForeground(new java.awt.Color(225, 135, 44));
-        jLabel19.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel19.setText("Slice CheeseCake");
+        SliceCheeseCakelabel.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        SliceCheeseCakelabel.setForeground(new java.awt.Color(225, 135, 44));
+        SliceCheeseCakelabel.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        SliceCheeseCakelabel.setText("Slice CheeseCake");
 
         javax.swing.GroupLayout jPanel35Layout = new javax.swing.GroupLayout(jPanel35);
         jPanel35.setLayout(jPanel35Layout);
@@ -2184,7 +2164,7 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel35Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(AddSliceCheeseCakeToPanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel19, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(SliceCheeseCakelabel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap())
         );
         jPanel35Layout.setVerticalGroup(
@@ -2193,7 +2173,7 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGroup(jPanel35Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
                     .addGroup(jPanel35Layout.createSequentialGroup()
-                        .addComponent(jLabel19, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(SliceCheeseCakelabel, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(AddSliceCheeseCakeToPanel, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addComponent(jPanel36, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -2229,10 +2209,10 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
         AddMangoBravoTubToPanel.setForeground(new java.awt.Color(225, 135, 44));
         AddMangoBravoTubToPanel.setText("ADD");
 
-        jLabel18.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jLabel18.setForeground(new java.awt.Color(225, 135, 44));
-        jLabel18.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel18.setText("Mango Bravo Tub");
+        MangoBravoTublabel.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        MangoBravoTublabel.setForeground(new java.awt.Color(225, 135, 44));
+        MangoBravoTublabel.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        MangoBravoTublabel.setText("Mango Bravo Tub");
 
         javax.swing.GroupLayout jPanel39Layout = new javax.swing.GroupLayout(jPanel39);
         jPanel39.setLayout(jPanel39Layout);
@@ -2244,7 +2224,7 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel39Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(AddMangoBravoTubToPanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel18, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(MangoBravoTublabel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap())
         );
         jPanel39Layout.setVerticalGroup(
@@ -2254,7 +2234,7 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
                 .addGroup(jPanel39Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addGroup(jPanel39Layout.createSequentialGroup()
                         .addGap(0, 5, Short.MAX_VALUE)
-                        .addComponent(jLabel18, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(MangoBravoTublabel, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addComponent(AddMangoBravoTubToPanel, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addComponent(jPanel40, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
@@ -2290,10 +2270,10 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
         AddMiniCupcakeToPanel.setForeground(new java.awt.Color(225, 135, 44));
         AddMiniCupcakeToPanel.setText("ADD");
 
-        jLabel20.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jLabel20.setForeground(new java.awt.Color(225, 135, 44));
-        jLabel20.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel20.setText("Mini Cupcake");
+        MiniCupcakelabel.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        MiniCupcakelabel.setForeground(new java.awt.Color(225, 135, 44));
+        MiniCupcakelabel.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        MiniCupcakelabel.setText("Mini Cupcake");
 
         javax.swing.GroupLayout jPanel43Layout = new javax.swing.GroupLayout(jPanel43);
         jPanel43.setLayout(jPanel43Layout);
@@ -2305,7 +2285,7 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel43Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(AddMiniCupcakeToPanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel20, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(MiniCupcakelabel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap())
         );
         jPanel43Layout.setVerticalGroup(
@@ -2314,7 +2294,7 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
                 .addContainerGap()
                 .addGroup(jPanel43Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addGroup(jPanel43Layout.createSequentialGroup()
-                        .addComponent(jLabel20, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(MiniCupcakelabel, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(AddMiniCupcakeToPanel, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addComponent(jPanel44, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
@@ -2350,10 +2330,10 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
         AddPiscesCupcakeToPanel.setForeground(new java.awt.Color(225, 135, 44));
         AddPiscesCupcakeToPanel.setText("ADD");
 
-        jLabel21.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jLabel21.setForeground(new java.awt.Color(225, 135, 44));
-        jLabel21.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel21.setText("Pisces Cupcake");
+        PiscesCupcakelabel.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        PiscesCupcakelabel.setForeground(new java.awt.Color(225, 135, 44));
+        PiscesCupcakelabel.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        PiscesCupcakelabel.setText("Pisces Cupcake");
 
         javax.swing.GroupLayout jPanel47Layout = new javax.swing.GroupLayout(jPanel47);
         jPanel47.setLayout(jPanel47Layout);
@@ -2365,7 +2345,7 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel47Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(AddPiscesCupcakeToPanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel21, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(PiscesCupcakelabel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap())
         );
         jPanel47Layout.setVerticalGroup(
@@ -2374,7 +2354,7 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGroup(jPanel47Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
                     .addGroup(jPanel47Layout.createSequentialGroup()
-                        .addComponent(jLabel21, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(PiscesCupcakelabel, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(AddPiscesCupcakeToPanel, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addComponent(jPanel48, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -2410,10 +2390,10 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
         AddIcingCustomCakeToPanel.setForeground(new java.awt.Color(225, 135, 44));
         AddIcingCustomCakeToPanel.setText("ADD");
 
-        jLabel22.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jLabel22.setForeground(new java.awt.Color(225, 135, 44));
-        jLabel22.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel22.setText("Icing Custom Cake");
+        IcingCustomCakelabel.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        IcingCustomCakelabel.setForeground(new java.awt.Color(225, 135, 44));
+        IcingCustomCakelabel.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        IcingCustomCakelabel.setText("Icing Custom Cake");
 
         javax.swing.GroupLayout jPanel55Layout = new javax.swing.GroupLayout(jPanel55);
         jPanel55.setLayout(jPanel55Layout);
@@ -2425,7 +2405,7 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel55Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(AddIcingCustomCakeToPanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel22, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(IcingCustomCakelabel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap())
         );
         jPanel55Layout.setVerticalGroup(
@@ -2434,7 +2414,7 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
                 .addContainerGap()
                 .addGroup(jPanel55Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
                     .addGroup(jPanel55Layout.createSequentialGroup()
-                        .addComponent(jLabel22, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(IcingCustomCakelabel, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(AddIcingCustomCakeToPanel, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addComponent(jPanel56, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -2470,10 +2450,10 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
         AddMinimalistCustomCakeToPanel.setForeground(new java.awt.Color(225, 135, 44));
         AddMinimalistCustomCakeToPanel.setText("ADD");
 
-        jLabel23.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jLabel23.setForeground(new java.awt.Color(225, 135, 44));
-        jLabel23.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel23.setText("Minimalist Custom");
+        MinimalistCustomCakelabel.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        MinimalistCustomCakelabel.setForeground(new java.awt.Color(225, 135, 44));
+        MinimalistCustomCakelabel.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        MinimalistCustomCakelabel.setText("Minimalist Custom");
 
         jLabel24.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel24.setForeground(new java.awt.Color(225, 135, 44));
@@ -2490,7 +2470,7 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel84Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(AddMinimalistCustomCakeToPanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel23, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(MinimalistCustomCakelabel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jLabel24, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap())
         );
@@ -2500,7 +2480,7 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
                 .addContainerGap()
                 .addGroup(jPanel84Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
                     .addGroup(jPanel84Layout.createSequentialGroup()
-                        .addComponent(jLabel23)
+                        .addComponent(MinimalistCustomCakelabel)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(jLabel24)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -2538,15 +2518,10 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
         AddFondantCustomCakeToPanel.setForeground(new java.awt.Color(225, 135, 44));
         AddFondantCustomCakeToPanel.setText("ADD");
 
-        jLabel25.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jLabel25.setForeground(new java.awt.Color(225, 135, 44));
-        jLabel25.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel25.setText("Fondant");
-
-        jLabel26.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jLabel26.setForeground(new java.awt.Color(225, 135, 44));
-        jLabel26.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel26.setText("Custom Cake");
+        FondantCustomCakelabel.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        FondantCustomCakelabel.setForeground(new java.awt.Color(225, 135, 44));
+        FondantCustomCakelabel.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        FondantCustomCakelabel.setText("<html>Fondant<br>Custom Cake</html>");
 
         javax.swing.GroupLayout jPanel88Layout = new javax.swing.GroupLayout(jPanel88);
         jPanel88.setLayout(jPanel88Layout);
@@ -2558,8 +2533,7 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel88Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(AddFondantCustomCakeToPanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel25, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel26, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(FondantCustomCakelabel, javax.swing.GroupLayout.Alignment.TRAILING))
                 .addContainerGap())
         );
         jPanel88Layout.setVerticalGroup(
@@ -2568,9 +2542,7 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGroup(jPanel88Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
                     .addGroup(jPanel88Layout.createSequentialGroup()
-                        .addComponent(jLabel25)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel26)
+                        .addComponent(FondantCustomCakelabel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(AddFondantCustomCakeToPanel, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addComponent(jPanel89, javax.swing.GroupLayout.PREFERRED_SIZE, 108, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -2606,10 +2578,10 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
         AddYemaCakeToPanel.setForeground(new java.awt.Color(225, 135, 44));
         AddYemaCakeToPanel.setText("ADD");
 
-        jLabel27.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jLabel27.setForeground(new java.awt.Color(225, 135, 44));
-        jLabel27.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel27.setText("Yema Cake");
+        YemaCakelabel.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        YemaCakelabel.setForeground(new java.awt.Color(225, 135, 44));
+        YemaCakelabel.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        YemaCakelabel.setText("Yema Cake");
 
         javax.swing.GroupLayout jPanel92Layout = new javax.swing.GroupLayout(jPanel92);
         jPanel92.setLayout(jPanel92Layout);
@@ -2621,7 +2593,7 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel92Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(AddYemaCakeToPanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel27, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(YemaCakelabel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap())
         );
         jPanel92Layout.setVerticalGroup(
@@ -2630,7 +2602,7 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
                 .addContainerGap()
                 .addGroup(jPanel92Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addGroup(jPanel92Layout.createSequentialGroup()
-                        .addComponent(jLabel27, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(YemaCakelabel, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(AddYemaCakeToPanel, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addComponent(jPanel93, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE))
@@ -2647,7 +2619,7 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
                     .addComponent(jPanel88, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jPanel39, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jPanel51, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jPanel15, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jPanel15, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jPanel47, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addGap(18, 18, 18)
                 .addGroup(cakesPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
@@ -2704,7 +2676,7 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
         jPanel71.setLayout(jPanel71Layout);
         jPanel71Layout.setHorizontalGroup(
             jPanel71Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jScrollPane1)
+            .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 930, Short.MAX_VALUE)
         );
         jPanel71Layout.setVerticalGroup(
             jPanel71Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -2754,10 +2726,10 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
             }
         });
 
-        UbeCheesedesal.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        UbeCheesedesal.setForeground(new java.awt.Color(225, 135, 44));
-        UbeCheesedesal.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        UbeCheesedesal.setText("Ube Cheesedesal");
+        UbeCheesedesallabel.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        UbeCheesedesallabel.setForeground(new java.awt.Color(225, 135, 44));
+        UbeCheesedesallabel.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        UbeCheesedesallabel.setText("Ube Cheesedesal");
 
         javax.swing.GroupLayout jPanel59Layout = new javax.swing.GroupLayout(jPanel59);
         jPanel59.setLayout(jPanel59Layout);
@@ -2768,7 +2740,7 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
                 .addComponent(jPanel60, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel59Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(UbeCheesedesal, javax.swing.GroupLayout.DEFAULT_SIZE, 139, Short.MAX_VALUE)
+                    .addComponent(UbeCheesedesallabel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(AddUbeCheesedesalToPanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap())
         );
@@ -2779,7 +2751,7 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
                 .addGroup(jPanel59Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
                     .addComponent(jPanel60, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addGroup(jPanel59Layout.createSequentialGroup()
-                        .addComponent(UbeCheesedesal, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(UbeCheesedesallabel, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addComponent(AddUbeCheesedesalToPanel, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addGap(14, 14, 14))
@@ -2820,10 +2792,10 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
             }
         });
 
-        BananaLoaf.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        BananaLoaf.setForeground(new java.awt.Color(225, 135, 44));
-        BananaLoaf.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        BananaLoaf.setText("Banana Loaf");
+        BananaLoaflabel.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        BananaLoaflabel.setForeground(new java.awt.Color(225, 135, 44));
+        BananaLoaflabel.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        BananaLoaflabel.setText("Banana Loaf");
 
         javax.swing.GroupLayout jPanel63Layout = new javax.swing.GroupLayout(jPanel63);
         jPanel63.setLayout(jPanel63Layout);
@@ -2834,7 +2806,7 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
                 .addComponent(jPanel64, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel63Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(BananaLoaf, javax.swing.GroupLayout.DEFAULT_SIZE, 139, Short.MAX_VALUE)
+                    .addComponent(BananaLoaflabel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(AddBananaLoafToPanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap())
         );
@@ -2845,7 +2817,7 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
                 .addGroup(jPanel63Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
                     .addComponent(jPanel64, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addGroup(jPanel63Layout.createSequentialGroup()
-                        .addComponent(BananaLoaf, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(BananaLoaflabel, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(9, 9, 9)
                         .addComponent(AddBananaLoafToPanel, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addGap(14, 14, 14))
@@ -2886,10 +2858,10 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
             }
         });
 
-        Brownies.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        Brownies.setForeground(new java.awt.Color(225, 135, 44));
-        Brownies.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        Brownies.setText("Brownies");
+        Brownieslabel.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        Brownieslabel.setForeground(new java.awt.Color(225, 135, 44));
+        Brownieslabel.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        Brownieslabel.setText("Brownies");
 
         javax.swing.GroupLayout jPanel67Layout = new javax.swing.GroupLayout(jPanel67);
         jPanel67.setLayout(jPanel67Layout);
@@ -2900,9 +2872,9 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
                 .addComponent(jPanel68, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel67Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(Brownies, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(Brownieslabel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel67Layout.createSequentialGroup()
-                        .addGap(0, 0, Short.MAX_VALUE)
+                        .addGap(0, 9, Short.MAX_VALUE)
                         .addComponent(AddBrowniesToPanel, javax.swing.GroupLayout.PREFERRED_SIZE, 139, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap())
         );
@@ -2912,7 +2884,7 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
                 .addContainerGap(9, Short.MAX_VALUE)
                 .addGroup(jPanel67Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addGroup(jPanel67Layout.createSequentialGroup()
-                        .addComponent(Brownies, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(Brownieslabel, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(AddBrowniesToPanel, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addComponent(jPanel68, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -2954,15 +2926,10 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
             }
         });
 
-        ClassicCinnamon.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        ClassicCinnamon.setForeground(new java.awt.Color(225, 135, 44));
-        ClassicCinnamon.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        ClassicCinnamon.setText("Classic Cinnamon");
-
-        Roll.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        Roll.setForeground(new java.awt.Color(225, 135, 44));
-        Roll.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        Roll.setText("Roll");
+        ClassicCinnamonlabel.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        ClassicCinnamonlabel.setForeground(new java.awt.Color(225, 135, 44));
+        ClassicCinnamonlabel.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        ClassicCinnamonlabel.setText("Classic Cinnamon Roll");
 
         javax.swing.GroupLayout jPanel72Layout = new javax.swing.GroupLayout(jPanel72);
         jPanel72.setLayout(jPanel72Layout);
@@ -2973,9 +2940,8 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
                 .addComponent(jPanel73, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel72Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(AddClassicCinnamonRollToPanel, javax.swing.GroupLayout.DEFAULT_SIZE, 139, Short.MAX_VALUE)
-                    .addComponent(ClassicCinnamon, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(Roll, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(AddClassicCinnamonRollToPanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(ClassicCinnamonlabel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap())
         );
         jPanel72Layout.setVerticalGroup(
@@ -2984,11 +2950,9 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
                 .addContainerGap()
                 .addGroup(jPanel72Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(jPanel73, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGroup(jPanel72Layout.createSequentialGroup()
-                        .addComponent(ClassicCinnamon)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Roll)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel72Layout.createSequentialGroup()
+                        .addComponent(ClassicCinnamonlabel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addComponent(AddClassicCinnamonRollToPanel, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap(14, Short.MAX_VALUE))
         );
@@ -3028,15 +2992,14 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
             }
         });
 
-        MilkyCheese.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        MilkyCheese.setForeground(new java.awt.Color(225, 135, 44));
-        MilkyCheese.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        MilkyCheese.setText("Milky Cheese");
+        MilkyCheeseDonutlabel.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        MilkyCheeseDonutlabel.setForeground(new java.awt.Color(225, 135, 44));
+        MilkyCheeseDonutlabel.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        MilkyCheeseDonutlabel.setText("Milky Cheese Donut");
 
         Donut.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         Donut.setForeground(new java.awt.Color(225, 135, 44));
         Donut.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        Donut.setText("Donut");
 
         javax.swing.GroupLayout jPanel76Layout = new javax.swing.GroupLayout(jPanel76);
         jPanel76.setLayout(jPanel76Layout);
@@ -3047,7 +3010,7 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
                 .addComponent(jPanel77, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel76Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(MilkyCheese, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(MilkyCheeseDonutlabel, javax.swing.GroupLayout.DEFAULT_SIZE, 148, Short.MAX_VALUE)
                     .addComponent(AddMilkyCheeseDonutToPanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(Donut, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap())
@@ -3056,9 +3019,9 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
             jPanel76Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel76Layout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(jPanel76Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                .addGroup(jPanel76Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
                     .addGroup(jPanel76Layout.createSequentialGroup()
-                        .addComponent(MilkyCheese)
+                        .addComponent(MilkyCheeseDonutlabel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(Donut)
                         .addGap(12, 12, 12)
@@ -3102,10 +3065,10 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
             }
         });
 
-        BananaMuffin.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        BananaMuffin.setForeground(new java.awt.Color(225, 135, 44));
-        BananaMuffin.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        BananaMuffin.setText("Banana Muffin");
+        BananaMuffinlabel.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        BananaMuffinlabel.setForeground(new java.awt.Color(225, 135, 44));
+        BananaMuffinlabel.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        BananaMuffinlabel.setText("Banana Muffin");
 
         javax.swing.GroupLayout jPanel80Layout = new javax.swing.GroupLayout(jPanel80);
         jPanel80.setLayout(jPanel80Layout);
@@ -3116,7 +3079,7 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
                 .addComponent(jPanel81, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel80Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(BananaMuffin, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(BananaMuffinlabel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(AddBananaMuffinToPanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap())
         );
@@ -3126,7 +3089,7 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
                 .addContainerGap()
                 .addGroup(jPanel80Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addGroup(jPanel80Layout.createSequentialGroup()
-                        .addComponent(BananaMuffin, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(BananaMuffinlabel, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(10, 10, 10)
                         .addComponent(AddBananaMuffinToPanel, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addComponent(jPanel81, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -3140,11 +3103,11 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, breadsandsweetsPanelLayout.createSequentialGroup()
                 .addGap(14, 14, 14)
                 .addGroup(breadsandsweetsPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jPanel72, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jPanel59, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(jPanel59, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jPanel72, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(breadsandsweetsPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jPanel63, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jPanel63, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jPanel76, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(breadsandsweetsPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
@@ -3494,15 +3457,28 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
     private javax.swing.JButton AddStrawberryShortCakeToPanel;
     private javax.swing.JButton AddUbeCheesedesalToPanel;
     private javax.swing.JButton AddYemaCakeToPanel;
-    private javax.swing.JLabel BananaLoaf;
-    private javax.swing.JLabel BananaMuffin;
+    private javax.swing.JLabel BananaLoaflabel;
+    private javax.swing.JLabel BananaMuffinlabel;
+    private javax.swing.JLabel BentoCakelabel;
     private javax.swing.JPanel BillPanel;
-    private javax.swing.JLabel Brownies;
-    private javax.swing.JLabel ClassicCinnamon;
+    private javax.swing.JLabel Brownieslabel;
+    private javax.swing.JLabel Caramelflandelechecakelabel;
+    private javax.swing.JLabel CheeseCakelabel;
+    private javax.swing.JLabel ClassicCinnamonlabel;
     private javax.swing.JLabel Donut;
-    private javax.swing.JLabel MilkyCheese;
-    private javax.swing.JLabel Roll;
-    private javax.swing.JLabel UbeCheesedesal;
+    private javax.swing.JLabel FondantCustomCakelabel;
+    private javax.swing.JLabel IcingCustomCakelabel;
+    private javax.swing.JLabel MangoBravoTublabel;
+    private javax.swing.JLabel MangoBravolabel;
+    private javax.swing.JLabel MilkyCheeseDonutlabel;
+    private javax.swing.JLabel MiniCupcakelabel;
+    private javax.swing.JLabel MinimalistCustomCakelabel;
+    private javax.swing.JLabel PiscesCupcakelabel;
+    private javax.swing.JLabel RedVelvetCakelabel;
+    private javax.swing.JLabel SliceCheeseCakelabel;
+    private javax.swing.JLabel StrawberryShortCakelabel;
+    private javax.swing.JLabel UbeCheesedesallabel;
+    private javax.swing.JLabel YemaCakelabel;
     private javax.swing.JButton backButton;
     private javax.swing.JLabel billLabel;
     private javax.swing.JList<String> billList;
@@ -3512,25 +3488,8 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
     private javax.swing.JPanel cakesPanel;
     private javax.swing.JLabel dateLabel;
     private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel10;
-    private javax.swing.JLabel jLabel11;
-    private javax.swing.JLabel jLabel12;
-    private javax.swing.JLabel jLabel13;
-    private javax.swing.JLabel jLabel14;
-    private javax.swing.JLabel jLabel15;
-    private javax.swing.JLabel jLabel16;
-    private javax.swing.JLabel jLabel17;
-    private javax.swing.JLabel jLabel18;
-    private javax.swing.JLabel jLabel19;
     private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel20;
-    private javax.swing.JLabel jLabel21;
-    private javax.swing.JLabel jLabel22;
-    private javax.swing.JLabel jLabel23;
     private javax.swing.JLabel jLabel24;
-    private javax.swing.JLabel jLabel25;
-    private javax.swing.JLabel jLabel26;
-    private javax.swing.JLabel jLabel27;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel43;

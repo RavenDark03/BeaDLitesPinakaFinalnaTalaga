@@ -18,7 +18,7 @@
     <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
     <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
     <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
-    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,3,38,0,0,5,-112"/>
+    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,4,-67,0,0,4,110"/>
   </AuxValues>
 
   <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
@@ -578,7 +578,7 @@
                       <Layout>
                         <DimensionLayout dim="0">
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="jScrollPane1" alignment="0" max="32767" attributes="0"/>
+                              <Component id="jScrollPane1" alignment="0" pref="930" max="32767" attributes="0"/>
                           </Group>
                         </DimensionLayout>
                         <DimensionLayout dim="1">
@@ -614,7 +614,7 @@
                                               <Component id="jPanel88" max="32767" attributes="0"/>
                                               <Component id="jPanel39" alignment="1" max="32767" attributes="0"/>
                                               <Component id="jPanel51" alignment="0" max="32767" attributes="0"/>
-                                              <Component id="jPanel15" alignment="0" max="32767" attributes="0"/>
+                                              <Component id="jPanel15" alignment="0" min="-2" max="-2" attributes="0"/>
                                               <Component id="jPanel47" alignment="1" max="32767" attributes="0"/>
                                           </Group>
                                           <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
@@ -696,7 +696,7 @@
                                               <Component id="jPanel9" min="-2" max="-2" attributes="0"/>
                                               <EmptySpace max="-2" attributes="0"/>
                                               <Group type="103" groupAlignment="0" attributes="0">
-                                                  <Component id="jLabel10" max="32767" attributes="0"/>
+                                                  <Component id="MangoBravolabel" pref="148" max="32767" attributes="0"/>
                                                   <Component id="AddMangoBravoToPanel" max="32767" attributes="0"/>
                                               </Group>
                                               <EmptySpace max="-2" attributes="0"/>
@@ -709,7 +709,7 @@
                                               <EmptySpace max="-2" attributes="0"/>
                                               <Group type="103" groupAlignment="0" attributes="0">
                                                   <Group type="102" attributes="0">
-                                                      <Component id="jLabel10" min="-2" pref="49" max="-2" attributes="0"/>
+                                                      <Component id="MangoBravolabel" min="-2" pref="49" max="-2" attributes="0"/>
                                                       <EmptySpace max="32767" attributes="0"/>
                                                       <Component id="AddMangoBravoToPanel" min="-2" pref="43" max="-2" attributes="0"/>
                                                   </Group>
@@ -779,7 +779,7 @@
                                         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="AddMangoBravoToPanelActionPerformed"/>
                                       </Events>
                                     </Component>
-                                    <Component class="javax.swing.JLabel" name="jLabel10">
+                                    <Component class="javax.swing.JLabel" name="MangoBravolabel">
                                       <Properties>
                                         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                                           <Font name="Segoe UI" size="14" style="1"/>
@@ -810,9 +810,9 @@
                                               <Group type="103" groupAlignment="0" attributes="0">
                                                   <Group type="102" attributes="0">
                                                       <Component id="AddRedVelvetCakeToPanel" min="-2" pref="145" max="-2" attributes="0"/>
-                                                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                                      <EmptySpace min="0" pref="3" max="32767" attributes="0"/>
                                                   </Group>
-                                                  <Component id="jLabel11" max="32767" attributes="0"/>
+                                                  <Component id="RedVelvetCakelabel" max="32767" attributes="0"/>
                                               </Group>
                                               <EmptySpace max="-2" attributes="0"/>
                                           </Group>
@@ -825,7 +825,7 @@
                                               <Group type="103" groupAlignment="1" max="-2" attributes="0">
                                                   <Component id="jPanel17" max="32767" attributes="0"/>
                                                   <Group type="102" attributes="0">
-                                                      <Component id="jLabel11" min="-2" pref="54" max="-2" attributes="0"/>
+                                                      <Component id="RedVelvetCakelabel" min="-2" pref="54" max="-2" attributes="0"/>
                                                       <EmptySpace max="32767" attributes="0"/>
                                                       <Component id="AddRedVelvetCakeToPanel" min="-2" pref="43" max="-2" attributes="0"/>
                                                   </Group>
@@ -891,7 +891,7 @@
                                         <Property name="text" type="java.lang.String" value="ADD"/>
                                       </Properties>
                                     </Component>
-                                    <Component class="javax.swing.JLabel" name="jLabel11">
+                                    <Component class="javax.swing.JLabel" name="RedVelvetCakelabel">
                                       <Properties>
                                         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                                           <Font name="Segoe UI" size="14" style="1"/>
@@ -920,8 +920,7 @@
                                               <Component id="jPanel24" min="-2" max="-2" attributes="0"/>
                                               <EmptySpace max="-2" attributes="0"/>
                                               <Group type="103" groupAlignment="0" attributes="0">
-                                                  <Component id="jLabel12" max="32767" attributes="0"/>
-                                                  <Component id="jLabel13" alignment="0" max="32767" attributes="0"/>
+                                                  <Component id="StrawberryShortCakelabel" max="32767" attributes="0"/>
                                                   <Group type="102" alignment="0" attributes="0">
                                                       <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                                                       <Component id="AddStrawberryShortCakeToPanel" min="-2" pref="145" max="-2" attributes="0"/>
@@ -937,9 +936,7 @@
                                               <EmptySpace max="-2" attributes="0"/>
                                               <Group type="103" groupAlignment="0" attributes="0">
                                                   <Group type="102" attributes="0">
-                                                      <Component id="jLabel12" min="-2" max="-2" attributes="0"/>
-                                                      <EmptySpace max="-2" attributes="0"/>
-                                                      <Component id="jLabel13" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="StrawberryShortCakelabel" min="-2" max="-2" attributes="0"/>
                                                       <EmptySpace max="32767" attributes="0"/>
                                                       <Component id="AddStrawberryShortCakeToPanel" min="-2" pref="43" max="-2" attributes="0"/>
                                                   </Group>
@@ -1005,7 +1002,7 @@
                                         <Property name="text" type="java.lang.String" value="ADD"/>
                                       </Properties>
                                     </Component>
-                                    <Component class="javax.swing.JLabel" name="jLabel12">
+                                    <Component class="javax.swing.JLabel" name="StrawberryShortCakelabel">
                                       <Properties>
                                         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                                           <Font name="Segoe UI" size="14" style="1"/>
@@ -1014,19 +1011,7 @@
                                           <Color blue="2c" green="87" red="e1" type="rgb"/>
                                         </Property>
                                         <Property name="horizontalAlignment" type="int" value="0"/>
-                                        <Property name="text" type="java.lang.String" value="Strawberry"/>
-                                      </Properties>
-                                    </Component>
-                                    <Component class="javax.swing.JLabel" name="jLabel13">
-                                      <Properties>
-                                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                                          <Font name="Segoe UI" size="14" style="1"/>
-                                        </Property>
-                                        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                                          <Color blue="2c" green="87" red="e1" type="rgb"/>
-                                        </Property>
-                                        <Property name="horizontalAlignment" type="int" value="0"/>
-                                        <Property name="text" type="java.lang.String" value="ShortCake"/>
+                                        <Property name="text" type="java.lang.String" value="&lt;html&gt;Strawberry&lt;br&gt;ShortCake&lt;/html&gt;"/>
                                       </Properties>
                                     </Component>
                                   </SubComponents>
@@ -1047,7 +1032,7 @@
                                               <EmptySpace max="-2" attributes="0"/>
                                               <Group type="103" groupAlignment="0" max="-2" attributes="0">
                                                   <Component id="AddBentoCakeToPanel" pref="145" max="32767" attributes="0"/>
-                                                  <Component id="jLabel14" max="32767" attributes="0"/>
+                                                  <Component id="BentoCakelabel" max="32767" attributes="0"/>
                                               </Group>
                                               <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                                           </Group>
@@ -1059,7 +1044,7 @@
                                               <EmptySpace max="-2" attributes="0"/>
                                               <Group type="103" groupAlignment="1" attributes="0">
                                                   <Group type="102" attributes="0">
-                                                      <Component id="jLabel14" min="-2" pref="49" max="-2" attributes="0"/>
+                                                      <Component id="BentoCakelabel" min="-2" pref="49" max="-2" attributes="0"/>
                                                       <EmptySpace pref="17" max="32767" attributes="0"/>
                                                       <Component id="AddBentoCakeToPanel" min="-2" pref="43" max="-2" attributes="0"/>
                                                   </Group>
@@ -1124,7 +1109,7 @@
                                         <Property name="text" type="java.lang.String" value="ADD"/>
                                       </Properties>
                                     </Component>
-                                    <Component class="javax.swing.JLabel" name="jLabel14">
+                                    <Component class="javax.swing.JLabel" name="BentoCakelabel">
                                       <Properties>
                                         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                                           <Font name="Segoe UI" size="14" style="1"/>
@@ -1157,8 +1142,7 @@
                                                       <Component id="AddCaramelFlanDeLecheCakeToPanel" min="-2" pref="145" max="-2" attributes="0"/>
                                                       <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                                                   </Group>
-                                                  <Component id="jLabel16" alignment="1" max="32767" attributes="0"/>
-                                                  <Component id="jLabel17" alignment="1" max="32767" attributes="0"/>
+                                                  <Component id="Caramelflandelechecakelabel" alignment="1" max="32767" attributes="0"/>
                                               </Group>
                                               <EmptySpace max="-2" attributes="0"/>
                                           </Group>
@@ -1170,9 +1154,7 @@
                                               <EmptySpace max="-2" attributes="0"/>
                                               <Group type="103" groupAlignment="1" attributes="0">
                                                   <Group type="102" attributes="0">
-                                                      <Component id="jLabel16" min="-2" max="-2" attributes="0"/>
-                                                      <EmptySpace max="-2" attributes="0"/>
-                                                      <Component id="jLabel17" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="Caramelflandelechecakelabel" min="-2" max="-2" attributes="0"/>
                                                       <EmptySpace max="32767" attributes="0"/>
                                                       <Component id="AddCaramelFlanDeLecheCakeToPanel" min="-2" pref="43" max="-2" attributes="0"/>
                                                   </Group>
@@ -1237,7 +1219,7 @@
                                         <Property name="text" type="java.lang.String" value="ADD"/>
                                       </Properties>
                                     </Component>
-                                    <Component class="javax.swing.JLabel" name="jLabel16">
+                                    <Component class="javax.swing.JLabel" name="Caramelflandelechecakelabel">
                                       <Properties>
                                         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                                           <Font name="Segoe UI" size="14" style="1"/>
@@ -1246,19 +1228,7 @@
                                           <Color blue="2c" green="87" red="e1" type="rgb"/>
                                         </Property>
                                         <Property name="horizontalAlignment" type="int" value="0"/>
-                                        <Property name="text" type="java.lang.String" value="Caramel flan de"/>
-                                      </Properties>
-                                    </Component>
-                                    <Component class="javax.swing.JLabel" name="jLabel17">
-                                      <Properties>
-                                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                                          <Font name="Segoe UI" size="14" style="1"/>
-                                        </Property>
-                                        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                                          <Color blue="2c" green="87" red="e1" type="rgb"/>
-                                        </Property>
-                                        <Property name="horizontalAlignment" type="int" value="0"/>
-                                        <Property name="text" type="java.lang.String" value="leche cake"/>
+                                        <Property name="text" type="java.lang.String" value="&lt;html&gt;Caramel flan de&lt;br&gt;leche cake&lt;/html&gt; "/>
                                       </Properties>
                                     </Component>
                                   </SubComponents>
@@ -1279,7 +1249,7 @@
                                               <EmptySpace max="-2" attributes="0"/>
                                               <Group type="103" groupAlignment="0" max="-2" attributes="0">
                                                   <Component id="AddCheeseCakeToPanel" max="32767" attributes="0"/>
-                                                  <Component id="jLabel15" pref="145" max="32767" attributes="0"/>
+                                                  <Component id="CheeseCakelabel" pref="145" max="32767" attributes="0"/>
                                               </Group>
                                               <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                                           </Group>
@@ -1291,7 +1261,7 @@
                                               <EmptySpace max="-2" attributes="0"/>
                                               <Group type="103" groupAlignment="1" attributes="0">
                                                   <Group type="102" attributes="0">
-                                                      <Component id="jLabel15" min="-2" pref="49" max="-2" attributes="0"/>
+                                                      <Component id="CheeseCakelabel" min="-2" pref="49" max="-2" attributes="0"/>
                                                       <EmptySpace max="32767" attributes="0"/>
                                                       <Component id="AddCheeseCakeToPanel" min="-2" pref="43" max="-2" attributes="0"/>
                                                   </Group>
@@ -1357,7 +1327,7 @@
                                         <Property name="text" type="java.lang.String" value="ADD"/>
                                       </Properties>
                                     </Component>
-                                    <Component class="javax.swing.JLabel" name="jLabel15">
+                                    <Component class="javax.swing.JLabel" name="CheeseCakelabel">
                                       <Properties>
                                         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                                           <Font name="Segoe UI" size="14" style="1"/>
@@ -1387,7 +1357,7 @@
                                               <EmptySpace max="-2" attributes="0"/>
                                               <Group type="103" groupAlignment="0" attributes="0">
                                                   <Component id="AddSliceCheeseCakeToPanel" max="32767" attributes="0"/>
-                                                  <Component id="jLabel19" max="32767" attributes="0"/>
+                                                  <Component id="SliceCheeseCakelabel" max="32767" attributes="0"/>
                                               </Group>
                                               <EmptySpace max="-2" attributes="0"/>
                                           </Group>
@@ -1399,7 +1369,7 @@
                                               <EmptySpace max="32767" attributes="0"/>
                                               <Group type="103" groupAlignment="1" max="-2" attributes="0">
                                                   <Group type="102" attributes="0">
-                                                      <Component id="jLabel19" min="-2" pref="49" max="-2" attributes="0"/>
+                                                      <Component id="SliceCheeseCakelabel" min="-2" pref="49" max="-2" attributes="0"/>
                                                       <EmptySpace max="32767" attributes="0"/>
                                                       <Component id="AddSliceCheeseCakeToPanel" min="-2" pref="43" max="-2" attributes="0"/>
                                                   </Group>
@@ -1465,7 +1435,7 @@
                                         <Property name="text" type="java.lang.String" value="ADD"/>
                                       </Properties>
                                     </Component>
-                                    <Component class="javax.swing.JLabel" name="jLabel19">
+                                    <Component class="javax.swing.JLabel" name="SliceCheeseCakelabel">
                                       <Properties>
                                         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                                           <Font name="Segoe UI" size="14" style="1"/>
@@ -1495,7 +1465,7 @@
                                               <EmptySpace max="-2" attributes="0"/>
                                               <Group type="103" groupAlignment="0" attributes="0">
                                                   <Component id="AddMangoBravoTubToPanel" max="32767" attributes="0"/>
-                                                  <Component id="jLabel18" max="32767" attributes="0"/>
+                                                  <Component id="MangoBravoTublabel" max="32767" attributes="0"/>
                                               </Group>
                                               <EmptySpace max="-2" attributes="0"/>
                                           </Group>
@@ -1508,7 +1478,7 @@
                                               <Group type="103" groupAlignment="1" attributes="0">
                                                   <Group type="102" attributes="0">
                                                       <EmptySpace min="0" pref="5" max="32767" attributes="0"/>
-                                                      <Component id="jLabel18" min="-2" pref="49" max="-2" attributes="0"/>
+                                                      <Component id="MangoBravoTublabel" min="-2" pref="49" max="-2" attributes="0"/>
                                                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
                                                       <Component id="AddMangoBravoTubToPanel" min="-2" pref="43" max="-2" attributes="0"/>
                                                   </Group>
@@ -1574,7 +1544,7 @@
                                         <Property name="text" type="java.lang.String" value="ADD"/>
                                       </Properties>
                                     </Component>
-                                    <Component class="javax.swing.JLabel" name="jLabel18">
+                                    <Component class="javax.swing.JLabel" name="MangoBravoTublabel">
                                       <Properties>
                                         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                                           <Font name="Segoe UI" size="14" style="1"/>
@@ -1604,7 +1574,7 @@
                                               <EmptySpace max="-2" attributes="0"/>
                                               <Group type="103" groupAlignment="0" attributes="0">
                                                   <Component id="AddMiniCupcakeToPanel" max="32767" attributes="0"/>
-                                                  <Component id="jLabel20" max="32767" attributes="0"/>
+                                                  <Component id="MiniCupcakelabel" max="32767" attributes="0"/>
                                               </Group>
                                               <EmptySpace max="-2" attributes="0"/>
                                           </Group>
@@ -1616,7 +1586,7 @@
                                               <EmptySpace max="-2" attributes="0"/>
                                               <Group type="103" groupAlignment="1" attributes="0">
                                                   <Group type="102" attributes="0">
-                                                      <Component id="jLabel20" min="-2" pref="49" max="-2" attributes="0"/>
+                                                      <Component id="MiniCupcakelabel" min="-2" pref="49" max="-2" attributes="0"/>
                                                       <EmptySpace max="32767" attributes="0"/>
                                                       <Component id="AddMiniCupcakeToPanel" min="-2" pref="43" max="-2" attributes="0"/>
                                                   </Group>
@@ -1682,7 +1652,7 @@
                                         <Property name="text" type="java.lang.String" value="ADD"/>
                                       </Properties>
                                     </Component>
-                                    <Component class="javax.swing.JLabel" name="jLabel20">
+                                    <Component class="javax.swing.JLabel" name="MiniCupcakelabel">
                                       <Properties>
                                         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                                           <Font name="Segoe UI" size="14" style="1"/>
@@ -1712,7 +1682,7 @@
                                               <EmptySpace max="-2" attributes="0"/>
                                               <Group type="103" groupAlignment="0" attributes="0">
                                                   <Component id="AddPiscesCupcakeToPanel" max="32767" attributes="0"/>
-                                                  <Component id="jLabel21" max="32767" attributes="0"/>
+                                                  <Component id="PiscesCupcakelabel" max="32767" attributes="0"/>
                                               </Group>
                                               <EmptySpace max="-2" attributes="0"/>
                                           </Group>
@@ -1724,7 +1694,7 @@
                                               <EmptySpace max="32767" attributes="0"/>
                                               <Group type="103" groupAlignment="1" max="-2" attributes="0">
                                                   <Group type="102" attributes="0">
-                                                      <Component id="jLabel21" min="-2" pref="49" max="-2" attributes="0"/>
+                                                      <Component id="PiscesCupcakelabel" min="-2" pref="49" max="-2" attributes="0"/>
                                                       <EmptySpace max="32767" attributes="0"/>
                                                       <Component id="AddPiscesCupcakeToPanel" min="-2" pref="43" max="-2" attributes="0"/>
                                                   </Group>
@@ -1790,7 +1760,7 @@
                                         <Property name="text" type="java.lang.String" value="ADD"/>
                                       </Properties>
                                     </Component>
-                                    <Component class="javax.swing.JLabel" name="jLabel21">
+                                    <Component class="javax.swing.JLabel" name="PiscesCupcakelabel">
                                       <Properties>
                                         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                                           <Font name="Segoe UI" size="14" style="1"/>
@@ -1820,7 +1790,7 @@
                                               <EmptySpace max="-2" attributes="0"/>
                                               <Group type="103" groupAlignment="0" attributes="0">
                                                   <Component id="AddIcingCustomCakeToPanel" max="32767" attributes="0"/>
-                                                  <Component id="jLabel22" max="32767" attributes="0"/>
+                                                  <Component id="IcingCustomCakelabel" max="32767" attributes="0"/>
                                               </Group>
                                               <EmptySpace max="-2" attributes="0"/>
                                           </Group>
@@ -1832,7 +1802,7 @@
                                               <EmptySpace max="-2" attributes="0"/>
                                               <Group type="103" groupAlignment="1" max="-2" attributes="0">
                                                   <Group type="102" attributes="0">
-                                                      <Component id="jLabel22" min="-2" pref="49" max="-2" attributes="0"/>
+                                                      <Component id="IcingCustomCakelabel" min="-2" pref="49" max="-2" attributes="0"/>
                                                       <EmptySpace max="32767" attributes="0"/>
                                                       <Component id="AddIcingCustomCakeToPanel" min="-2" pref="43" max="-2" attributes="0"/>
                                                   </Group>
@@ -1898,7 +1868,7 @@
                                         <Property name="text" type="java.lang.String" value="ADD"/>
                                       </Properties>
                                     </Component>
-                                    <Component class="javax.swing.JLabel" name="jLabel22">
+                                    <Component class="javax.swing.JLabel" name="IcingCustomCakelabel">
                                       <Properties>
                                         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                                           <Font name="Segoe UI" size="14" style="1"/>
@@ -1928,7 +1898,7 @@
                                               <EmptySpace max="-2" attributes="0"/>
                                               <Group type="103" groupAlignment="0" attributes="0">
                                                   <Component id="AddMinimalistCustomCakeToPanel" max="32767" attributes="0"/>
-                                                  <Component id="jLabel23" max="32767" attributes="0"/>
+                                                  <Component id="MinimalistCustomCakelabel" max="32767" attributes="0"/>
                                                   <Component id="jLabel24" alignment="1" max="32767" attributes="0"/>
                                               </Group>
                                               <EmptySpace max="-2" attributes="0"/>
@@ -1941,7 +1911,7 @@
                                               <EmptySpace max="-2" attributes="0"/>
                                               <Group type="103" groupAlignment="1" max="-2" attributes="0">
                                                   <Group type="102" attributes="0">
-                                                      <Component id="jLabel23" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="MinimalistCustomCakelabel" min="-2" max="-2" attributes="0"/>
                                                       <EmptySpace max="-2" attributes="0"/>
                                                       <Component id="jLabel24" min="-2" max="-2" attributes="0"/>
                                                       <EmptySpace max="32767" attributes="0"/>
@@ -2009,7 +1979,7 @@
                                         <Property name="text" type="java.lang.String" value="ADD"/>
                                       </Properties>
                                     </Component>
-                                    <Component class="javax.swing.JLabel" name="jLabel23">
+                                    <Component class="javax.swing.JLabel" name="MinimalistCustomCakelabel">
                                       <Properties>
                                         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                                           <Font name="Segoe UI" size="14" style="1"/>
@@ -2051,8 +2021,7 @@
                                               <EmptySpace max="-2" attributes="0"/>
                                               <Group type="103" groupAlignment="0" attributes="0">
                                                   <Component id="AddFondantCustomCakeToPanel" max="32767" attributes="0"/>
-                                                  <Component id="jLabel25" alignment="1" max="32767" attributes="0"/>
-                                                  <Component id="jLabel26" alignment="0" max="32767" attributes="0"/>
+                                                  <Component id="FondantCustomCakelabel" alignment="1" max="32767" attributes="0"/>
                                               </Group>
                                               <EmptySpace max="-2" attributes="0"/>
                                           </Group>
@@ -2064,9 +2033,7 @@
                                               <EmptySpace max="32767" attributes="0"/>
                                               <Group type="103" groupAlignment="1" max="-2" attributes="0">
                                                   <Group type="102" attributes="0">
-                                                      <Component id="jLabel25" min="-2" max="-2" attributes="0"/>
-                                                      <EmptySpace max="-2" attributes="0"/>
-                                                      <Component id="jLabel26" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="FondantCustomCakelabel" min="-2" max="-2" attributes="0"/>
                                                       <EmptySpace max="32767" attributes="0"/>
                                                       <Component id="AddFondantCustomCakeToPanel" min="-2" pref="43" max="-2" attributes="0"/>
                                                   </Group>
@@ -2132,7 +2099,7 @@
                                         <Property name="text" type="java.lang.String" value="ADD"/>
                                       </Properties>
                                     </Component>
-                                    <Component class="javax.swing.JLabel" name="jLabel25">
+                                    <Component class="javax.swing.JLabel" name="FondantCustomCakelabel">
                                       <Properties>
                                         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                                           <Font name="Segoe UI" size="14" style="1"/>
@@ -2141,19 +2108,7 @@
                                           <Color blue="2c" green="87" red="e1" type="rgb"/>
                                         </Property>
                                         <Property name="horizontalAlignment" type="int" value="0"/>
-                                        <Property name="text" type="java.lang.String" value="Fondant"/>
-                                      </Properties>
-                                    </Component>
-                                    <Component class="javax.swing.JLabel" name="jLabel26">
-                                      <Properties>
-                                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                                          <Font name="Segoe UI" size="14" style="1"/>
-                                        </Property>
-                                        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                                          <Color blue="2c" green="87" red="e1" type="rgb"/>
-                                        </Property>
-                                        <Property name="horizontalAlignment" type="int" value="0"/>
-                                        <Property name="text" type="java.lang.String" value="Custom Cake"/>
+                                        <Property name="text" type="java.lang.String" value="&lt;html&gt;Fondant&lt;br&gt;Custom Cake&lt;/html&gt;"/>
                                       </Properties>
                                     </Component>
                                   </SubComponents>
@@ -2174,7 +2129,7 @@
                                               <EmptySpace max="-2" attributes="0"/>
                                               <Group type="103" groupAlignment="0" attributes="0">
                                                   <Component id="AddYemaCakeToPanel" max="32767" attributes="0"/>
-                                                  <Component id="jLabel27" max="32767" attributes="0"/>
+                                                  <Component id="YemaCakelabel" max="32767" attributes="0"/>
                                               </Group>
                                               <EmptySpace max="-2" attributes="0"/>
                                           </Group>
@@ -2186,7 +2141,7 @@
                                               <EmptySpace max="-2" attributes="0"/>
                                               <Group type="103" groupAlignment="1" attributes="0">
                                                   <Group type="102" attributes="0">
-                                                      <Component id="jLabel27" min="-2" pref="49" max="-2" attributes="0"/>
+                                                      <Component id="YemaCakelabel" min="-2" pref="49" max="-2" attributes="0"/>
                                                       <EmptySpace max="32767" attributes="0"/>
                                                       <Component id="AddYemaCakeToPanel" min="-2" pref="43" max="-2" attributes="0"/>
                                                   </Group>
@@ -2252,7 +2207,7 @@
                                         <Property name="text" type="java.lang.String" value="ADD"/>
                                       </Properties>
                                     </Component>
-                                    <Component class="javax.swing.JLabel" name="jLabel27">
+                                    <Component class="javax.swing.JLabel" name="YemaCakelabel">
                                       <Properties>
                                         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                                           <Font name="Segoe UI" size="14" style="1"/>
@@ -2321,12 +2276,12 @@
                                       <Group type="102" alignment="1" attributes="0">
                                           <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
                                           <Group type="103" groupAlignment="0" attributes="0">
-                                              <Component id="jPanel72" max="32767" attributes="0"/>
                                               <Component id="jPanel59" max="32767" attributes="0"/>
+                                              <Component id="jPanel72" max="32767" attributes="0"/>
                                           </Group>
                                           <EmptySpace type="unrelated" max="-2" attributes="0"/>
                                           <Group type="103" groupAlignment="0" attributes="0">
-                                              <Component id="jPanel63" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jPanel63" max="32767" attributes="0"/>
                                               <Component id="jPanel76" max="32767" attributes="0"/>
                                           </Group>
                                           <EmptySpace type="unrelated" max="-2" attributes="0"/>
@@ -2374,7 +2329,7 @@
                                               <Component id="jPanel60" min="-2" max="-2" attributes="0"/>
                                               <EmptySpace max="-2" attributes="0"/>
                                               <Group type="103" groupAlignment="0" attributes="0">
-                                                  <Component id="UbeCheesedesal" pref="139" max="32767" attributes="0"/>
+                                                  <Component id="UbeCheesedesallabel" max="32767" attributes="0"/>
                                                   <Component id="AddUbeCheesedesalToPanel" max="32767" attributes="0"/>
                                               </Group>
                                               <EmptySpace max="-2" attributes="0"/>
@@ -2388,7 +2343,7 @@
                                               <Group type="103" groupAlignment="1" max="-2" attributes="0">
                                                   <Component id="jPanel60" max="32767" attributes="0"/>
                                                   <Group type="102" attributes="0">
-                                                      <Component id="UbeCheesedesal" min="-2" pref="49" max="-2" attributes="0"/>
+                                                      <Component id="UbeCheesedesallabel" min="-2" pref="49" max="-2" attributes="0"/>
                                                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
                                                       <Component id="AddUbeCheesedesalToPanel" min="-2" pref="43" max="-2" attributes="0"/>
                                                   </Group>
@@ -2457,7 +2412,7 @@
                                         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="AddUbeCheesedesalToPanelActionPerformed"/>
                                       </Events>
                                     </Component>
-                                    <Component class="javax.swing.JLabel" name="UbeCheesedesal">
+                                    <Component class="javax.swing.JLabel" name="UbeCheesedesallabel">
                                       <Properties>
                                         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                                           <Font name="Segoe UI" size="14" style="1"/>
@@ -2486,7 +2441,7 @@
                                               <Component id="jPanel64" min="-2" max="-2" attributes="0"/>
                                               <EmptySpace max="-2" attributes="0"/>
                                               <Group type="103" groupAlignment="0" attributes="0">
-                                                  <Component id="BananaLoaf" pref="139" max="32767" attributes="0"/>
+                                                  <Component id="BananaLoaflabel" max="32767" attributes="0"/>
                                                   <Component id="AddBananaLoafToPanel" max="32767" attributes="0"/>
                                               </Group>
                                               <EmptySpace max="-2" attributes="0"/>
@@ -2500,7 +2455,7 @@
                                               <Group type="103" groupAlignment="1" max="-2" attributes="0">
                                                   <Component id="jPanel64" max="32767" attributes="0"/>
                                                   <Group type="102" attributes="0">
-                                                      <Component id="BananaLoaf" min="-2" pref="49" max="-2" attributes="0"/>
+                                                      <Component id="BananaLoaflabel" min="-2" pref="49" max="-2" attributes="0"/>
                                                       <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
                                                       <Component id="AddBananaLoafToPanel" min="-2" pref="43" max="-2" attributes="0"/>
                                                   </Group>
@@ -2569,7 +2524,7 @@
                                         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="AddBananaLoafToPanelActionPerformed"/>
                                       </Events>
                                     </Component>
-                                    <Component class="javax.swing.JLabel" name="BananaLoaf">
+                                    <Component class="javax.swing.JLabel" name="BananaLoaflabel">
                                       <Properties>
                                         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                                           <Font name="Segoe UI" size="14" style="1"/>
@@ -2598,9 +2553,9 @@
                                               <Component id="jPanel68" min="-2" max="-2" attributes="0"/>
                                               <EmptySpace max="-2" attributes="0"/>
                                               <Group type="103" groupAlignment="0" attributes="0">
-                                                  <Component id="Brownies" max="32767" attributes="0"/>
+                                                  <Component id="Brownieslabel" max="32767" attributes="0"/>
                                                   <Group type="102" alignment="1" attributes="0">
-                                                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                                      <EmptySpace min="0" pref="9" max="32767" attributes="0"/>
                                                       <Component id="AddBrowniesToPanel" min="-2" pref="139" max="-2" attributes="0"/>
                                                   </Group>
                                               </Group>
@@ -2614,7 +2569,7 @@
                                               <EmptySpace pref="9" max="32767" attributes="0"/>
                                               <Group type="103" groupAlignment="1" attributes="0">
                                                   <Group type="102" attributes="0">
-                                                      <Component id="Brownies" min="-2" pref="49" max="-2" attributes="0"/>
+                                                      <Component id="Brownieslabel" min="-2" pref="49" max="-2" attributes="0"/>
                                                       <EmptySpace max="-2" attributes="0"/>
                                                       <Component id="AddBrowniesToPanel" min="-2" pref="43" max="-2" attributes="0"/>
                                                   </Group>
@@ -2684,7 +2639,7 @@
                                         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="AddBrowniesToPanelActionPerformed"/>
                                       </Events>
                                     </Component>
-                                    <Component class="javax.swing.JLabel" name="Brownies">
+                                    <Component class="javax.swing.JLabel" name="Brownieslabel">
                                       <Properties>
                                         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                                           <Font name="Segoe UI" size="14" style="1"/>
@@ -2713,9 +2668,8 @@
                                               <Component id="jPanel73" min="-2" max="-2" attributes="0"/>
                                               <EmptySpace max="-2" attributes="0"/>
                                               <Group type="103" groupAlignment="0" attributes="0">
-                                                  <Component id="AddClassicCinnamonRollToPanel" pref="139" max="32767" attributes="0"/>
-                                                  <Component id="ClassicCinnamon" alignment="1" max="32767" attributes="0"/>
-                                                  <Component id="Roll" alignment="1" max="32767" attributes="0"/>
+                                                  <Component id="AddClassicCinnamonRollToPanel" max="32767" attributes="0"/>
+                                                  <Component id="ClassicCinnamonlabel" max="32767" attributes="0"/>
                                               </Group>
                                               <EmptySpace max="-2" attributes="0"/>
                                           </Group>
@@ -2727,11 +2681,9 @@
                                               <EmptySpace max="-2" attributes="0"/>
                                               <Group type="103" groupAlignment="0" max="-2" attributes="0">
                                                   <Component id="jPanel73" min="-2" max="-2" attributes="0"/>
-                                                  <Group type="102" attributes="0">
-                                                      <Component id="ClassicCinnamon" min="-2" max="-2" attributes="0"/>
-                                                      <EmptySpace max="-2" attributes="0"/>
-                                                      <Component id="Roll" min="-2" max="-2" attributes="0"/>
-                                                      <EmptySpace max="32767" attributes="0"/>
+                                                  <Group type="102" alignment="1" attributes="0">
+                                                      <Component id="ClassicCinnamonlabel" max="32767" attributes="0"/>
+                                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
                                                       <Component id="AddClassicCinnamonRollToPanel" min="-2" pref="43" max="-2" attributes="0"/>
                                                   </Group>
                                               </Group>
@@ -2799,7 +2751,7 @@
                                         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="AddClassicCinnamonRollToPanelActionPerformed"/>
                                       </Events>
                                     </Component>
-                                    <Component class="javax.swing.JLabel" name="ClassicCinnamon">
+                                    <Component class="javax.swing.JLabel" name="ClassicCinnamonlabel">
                                       <Properties>
                                         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                                           <Font name="Segoe UI" size="14" style="1"/>
@@ -2808,19 +2760,7 @@
                                           <Color blue="2c" green="87" red="e1" type="rgb"/>
                                         </Property>
                                         <Property name="horizontalAlignment" type="int" value="0"/>
-                                        <Property name="text" type="java.lang.String" value="Classic Cinnamon"/>
-                                      </Properties>
-                                    </Component>
-                                    <Component class="javax.swing.JLabel" name="Roll">
-                                      <Properties>
-                                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                                          <Font name="Segoe UI" size="14" style="1"/>
-                                        </Property>
-                                        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                                          <Color blue="2c" green="87" red="e1" type="rgb"/>
-                                        </Property>
-                                        <Property name="horizontalAlignment" type="int" value="0"/>
-                                        <Property name="text" type="java.lang.String" value="Roll"/>
+                                        <Property name="text" type="java.lang.String" value="Classic Cinnamon Roll"/>
                                       </Properties>
                                     </Component>
                                   </SubComponents>
@@ -2840,7 +2780,7 @@
                                               <Component id="jPanel77" min="-2" max="-2" attributes="0"/>
                                               <EmptySpace max="-2" attributes="0"/>
                                               <Group type="103" groupAlignment="0" attributes="0">
-                                                  <Component id="MilkyCheese" max="32767" attributes="0"/>
+                                                  <Component id="MilkyCheeseDonutlabel" pref="148" max="32767" attributes="0"/>
                                                   <Component id="AddMilkyCheeseDonutToPanel" alignment="0" max="32767" attributes="0"/>
                                                   <Component id="Donut" alignment="1" max="32767" attributes="0"/>
                                               </Group>
@@ -2852,9 +2792,9 @@
                                       <Group type="103" groupAlignment="0" attributes="0">
                                           <Group type="102" alignment="0" attributes="0">
                                               <EmptySpace max="-2" attributes="0"/>
-                                              <Group type="103" groupAlignment="1" attributes="0">
+                                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
                                                   <Group type="102" attributes="0">
-                                                      <Component id="MilkyCheese" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="MilkyCheeseDonutlabel" max="32767" attributes="0"/>
                                                       <EmptySpace max="-2" attributes="0"/>
                                                       <Component id="Donut" min="-2" max="-2" attributes="0"/>
                                                       <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
@@ -2926,7 +2866,7 @@
                                         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="AddMilkyCheeseDonutToPanelActionPerformed"/>
                                       </Events>
                                     </Component>
-                                    <Component class="javax.swing.JLabel" name="MilkyCheese">
+                                    <Component class="javax.swing.JLabel" name="MilkyCheeseDonutlabel">
                                       <Properties>
                                         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                                           <Font name="Segoe UI" size="14" style="1"/>
@@ -2935,7 +2875,7 @@
                                           <Color blue="2c" green="87" red="e1" type="rgb"/>
                                         </Property>
                                         <Property name="horizontalAlignment" type="int" value="0"/>
-                                        <Property name="text" type="java.lang.String" value="Milky Cheese"/>
+                                        <Property name="text" type="java.lang.String" value="Milky Cheese Donut"/>
                                       </Properties>
                                     </Component>
                                     <Component class="javax.swing.JLabel" name="Donut">
@@ -2947,7 +2887,6 @@
                                           <Color blue="2c" green="87" red="e1" type="rgb"/>
                                         </Property>
                                         <Property name="horizontalAlignment" type="int" value="0"/>
-                                        <Property name="text" type="java.lang.String" value="Donut"/>
                                       </Properties>
                                     </Component>
                                   </SubComponents>
@@ -2967,7 +2906,7 @@
                                               <Component id="jPanel81" min="-2" max="-2" attributes="0"/>
                                               <EmptySpace max="-2" attributes="0"/>
                                               <Group type="103" groupAlignment="0" attributes="0">
-                                                  <Component id="BananaMuffin" max="32767" attributes="0"/>
+                                                  <Component id="BananaMuffinlabel" max="32767" attributes="0"/>
                                                   <Component id="AddBananaMuffinToPanel" max="32767" attributes="0"/>
                                               </Group>
                                               <EmptySpace max="-2" attributes="0"/>
@@ -2980,7 +2919,7 @@
                                               <EmptySpace max="-2" attributes="0"/>
                                               <Group type="103" groupAlignment="1" attributes="0">
                                                   <Group type="102" attributes="0">
-                                                      <Component id="BananaMuffin" min="-2" pref="49" max="-2" attributes="0"/>
+                                                      <Component id="BananaMuffinlabel" min="-2" pref="49" max="-2" attributes="0"/>
                                                       <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
                                                       <Component id="AddBananaMuffinToPanel" min="-2" pref="43" max="-2" attributes="0"/>
                                                   </Group>
@@ -3050,7 +2989,7 @@
                                         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="AddBananaMuffinToPanelActionPerformed"/>
                                       </Events>
                                     </Component>
-                                    <Component class="javax.swing.JLabel" name="BananaMuffin">
+                                    <Component class="javax.swing.JLabel" name="BananaMuffinlabel">
                                       <Properties>
                                         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                                           <Font name="Segoe UI" size="14" style="1"/>
