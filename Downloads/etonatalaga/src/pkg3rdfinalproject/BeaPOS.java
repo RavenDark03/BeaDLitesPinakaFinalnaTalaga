@@ -257,656 +257,656 @@ private void saveOrderToDatabase() {
     String formattedDate = today.format(formatter);
     dateLabel.setText(formattedDate);
         
-    //mango bravo action listeners
-    mangoBravo6x2button.addActionListener(e -> { // 6x2
-    mangoBasePrice = 699;
-    selectedMangoBravoSize = "6x2";
-    
-    updateMangoPrice();
-    
-    });
-    
-    
-    
-    mangoBravo5x2button.addActionListener(e -> { // 5x2
-    mangoBasePrice = 399;
-    selectedMangoBravoSize = "5x2";
-    
-    updateMangoPrice();
-    
-    });
-    
-    mangoBravo4x2button.addActionListener(e -> { // 4x2
-    mangoBasePrice = 299;
-    selectedMangoBravoSize = "4x2";
-    
-    updateMangoPrice();
-    
-    });
-
-    
-    //red velvet action listeners
-    redVelvet6x2sizebutton.addActionListener(e->{
-    redVelvetBasePrice = 799;
-    selectedRedVelvetSize = "6x2";
-    
-    updateRedVelvetPrice();
-    });
-    
-    redVelvet5x2sizeButton.addActionListener(e->{
-    redVelvetBasePrice = 499;
-    selectedRedVelvetSize = "5x2";
-    updateRedVelvetPrice();
-    });
-    
-    
-    //strawberry shortcake listeners
-    strawberryshortcake4x3sizebtn.addActionListener(e->{
-    strawberryShortcakeBasePrice = 299;
-    selectedStrawberryShortcakeSize = "4x3";
-    updateStrawberryShortPrice();    
-    });
-    
-    strawberryshortcake5x3sizebtn.addActionListener(e->{
-    strawberryShortcakeBasePrice = 499;
-    selectedStrawberryShortcakeSize = "5x3";
-    updateStrawberryShortPrice();  
-    });
-    strawberryshortcake6x3sizebtn.addActionListener(e->{
-    strawberryShortcakeBasePrice = 699;
-    selectedStrawberryShortcakeSize = "6x3";    
-    });
-    strawberryshortcake8x3sizebtn.addActionListener(e->{
-    strawberryShortcakeBasePrice = 999;
-    selectedStrawberryShortcakeSize = "8x3";
-    updateStrawberryShortPrice();     
-    });
-    
-    
-    //bento cake listener
-    bentoCakeSizebutton.addActionListener(e->{
-    bentoCakeBasePrice = 340;
-    selectedBentoCakeSize = "4x2 + 2pcs Cupcake";
-    updateBentoCakePrice();     
-    });
-    
-    //chesecake 
-    btn8Cheesecake.addActionListener(e->{
-    cheesecakeBasePrice = 1400;
-    selectedCheesecakeSize = "8";
-    updateCheeseCakePrice();     
-    });
-    
-    //caramel de leche flan 
-    btn6x2CaramelFlan.addActionListener(e->{
-        caramelFlanBasePrice = 699;
-        selectedCaramelFlanSize  = "6x2";
-        updateCaramelLechePrice();
-        
-        
-    });
-    
-    
-    btn5x2CaramelFlan.addActionListener(e->{
-        caramelFlanBasePrice = 399;
-        selectedCaramelFlanSize  = "5x2";
-        updateCaramelLechePrice();
-    });
-    btn4x2CaramelFlan.addActionListener(e->{
-        caramelFlanBasePrice = 299;
-        selectedCaramelFlanSize  = "4x2";
-        updateCaramelLechePrice();
-    });
-    
-    //mangoBravotub
-    mangoBravoTub.addActionListener(e->{
-        mangoBravoTubBasePrice = 170;
-        selectedMangoBravoTubPieces  = "1 Tub";
-        updateMangoBravoTubPrice();
-    });
-    
-    //slice Cheesecake
-    btnSliceCheesecakePiece.addActionListener(e->{
-        slicecheesecakeBasePrice = 170;
-        selectedSliceCheesecakeSize  = "1 Tub";
-        updateSliceCheesecakePrice();
-    });
-    
-    //mini cupcakes
-    btn6PcsMiniCupcake.addActionListener(e->{
-        miniCupcakesBasePrice = 98;
-        selectedMiniCupcakesPieces = "6pcs";
-        updateMiniCupcakesPrice();
-        
-    });
-    btn12PcsMiniCupcake.addActionListener(e->{
-        miniCupcakesBasePrice = 169;
-        selectedMiniCupcakesPieces = "12pcs";
-        updateMiniCupcakesPrice();
-    });
-    
-    //pisces cupcakes
-    btn1pcPisces.addActionListener(e->{ 
-        piscesCupcakesBasePrice = 55;
-        selectedPiscesCupcakePieces = "1pc";
-        updatePiscesCupcakesPrice();        
-    });
-    btn3PcsPisces.addActionListener(e->{ 
-        piscesCupcakesBasePrice = 99;
-        selectedPiscesCupcakePieces = "3pcs";
-        updatePiscesCupcakesPrice();        
-    });
-    btn4PcsPisces.addActionListener(e->{ 
-        piscesCupcakesBasePrice = 149;
-        selectedPiscesCupcakePieces = "4pcs";
-        updatePiscesCupcakesPrice();        
-    });
-    btn6PcsPisces.addActionListener(e->{ 
-        piscesCupcakesBasePrice = 300;
-        selectedPiscesCupcakePieces = "6pcs";
-        updatePiscesCupcakesPrice();        
-    });
-    btn12PcsPisces.addActionListener(e->{ 
-        piscesCupcakesBasePrice = 600;
-        selectedPiscesCupcakePieces = "12pcs";
-        updatePiscesCupcakesPrice();        
-    });
-    
-    //yema cake
-    btn6x2Yemacake.addActionListener(e->{
-        yemaCakeBasePrice = 699;
-        selectedYemaCakeSize = "6x2";
-        updateYemaCakePrice();
-    });
-    btn5x2Yemacake.addActionListener(e->{
-        yemaCakeBasePrice = 399;
-        selectedYemaCakeSize = "5x2";
-        updateYemaCakePrice();
-    });
-    btn4x2Yemacake.addActionListener(e->{
-        yemaCakeBasePrice = 299;
-        selectedYemaCakeSize = "4x2";
-        updateYemaCakePrice();
-    });
+//    //mango bravo action listeners
+//    mangoBravo6x2button.addActionListener(e -> { // 6x2
+//    mangoBasePrice = 699;
+//    selectedMangoBravoSize = "6x2";
+//    
+//    updateMangoPrice();
+//    
+//    });
+//    
+//    
+//    
+//    mangoBravo5x2button.addActionListener(e -> { // 5x2
+//    mangoBasePrice = 399;
+//    selectedMangoBravoSize = "5x2";
+//    
+//    updateMangoPrice();
+//    
+//    });
+//    
+//    mangoBravo4x2button.addActionListener(e -> { // 4x2
+//    mangoBasePrice = 299;
+//    selectedMangoBravoSize = "4x2";
+//    
+//    updateMangoPrice();
+//    
+//    });
+//
+//    
+//    //red velvet action listeners
+//    redVelvet6x2sizebutton.addActionListener(e->{
+//    redVelvetBasePrice = 799;
+//    selectedRedVelvetSize = "6x2";
+//    
+//    updateRedVelvetPrice();
+//    });
+//    
+//    redVelvet5x2sizeButton.addActionListener(e->{
+//    redVelvetBasePrice = 499;
+//    selectedRedVelvetSize = "5x2";
+//    updateRedVelvetPrice();
+//    });
+//    
+//    
+//    //strawberry shortcake listeners
+//    strawberryshortcake4x3sizebtn.addActionListener(e->{
+//    strawberryShortcakeBasePrice = 299;
+//    selectedStrawberryShortcakeSize = "4x3";
+//    updateStrawberryShortPrice();    
+//    });
+//    
+//    strawberryshortcake5x3sizebtn.addActionListener(e->{
+//    strawberryShortcakeBasePrice = 499;
+//    selectedStrawberryShortcakeSize = "5x3";
+//    updateStrawberryShortPrice();  
+//    });
+//    strawberryshortcake6x3sizebtn.addActionListener(e->{
+//    strawberryShortcakeBasePrice = 699;
+//    selectedStrawberryShortcakeSize = "6x3";    
+//    });
+//    strawberryshortcake8x3sizebtn.addActionListener(e->{
+//    strawberryShortcakeBasePrice = 999;
+//    selectedStrawberryShortcakeSize = "8x3";
+//    updateStrawberryShortPrice();     
+//    });
+//    
+//    
+//    //bento cake listener
+//    bentoCakeSizebutton.addActionListener(e->{
+//    bentoCakeBasePrice = 340;
+//    selectedBentoCakeSize = "4x2 + 2pcs Cupcake";
+//    updateBentoCakePrice();     
+//    });
+//    
+//    //chesecake 
+//    btn8Cheesecake.addActionListener(e->{
+//    cheesecakeBasePrice = 1400;
+//    selectedCheesecakeSize = "8";
+//    updateCheeseCakePrice();     
+//    });
+//    
+//    //caramel de leche flan 
+//    btn6x2CaramelFlan.addActionListener(e->{
+//        caramelFlanBasePrice = 699;
+//        selectedCaramelFlanSize  = "6x2";
+//        updateCaramelLechePrice();
+//        
+//        
+//    });
+//    
+//    
+//    btn5x2CaramelFlan.addActionListener(e->{
+//        caramelFlanBasePrice = 399;
+//        selectedCaramelFlanSize  = "5x2";
+//        updateCaramelLechePrice();
+//    });
+//    btn4x2CaramelFlan.addActionListener(e->{
+//        caramelFlanBasePrice = 299;
+//        selectedCaramelFlanSize  = "4x2";
+//        updateCaramelLechePrice();
+//    });
+//    
+//    //mangoBravotub
+//    mangoBravoTub.addActionListener(e->{
+//        mangoBravoTubBasePrice = 170;
+//        selectedMangoBravoTubPieces  = "1 Tub";
+//        updateMangoBravoTubPrice();
+//    });
+//    
+//    //slice Cheesecake
+//    btnSliceCheesecakePiece.addActionListener(e->{
+//        slicecheesecakeBasePrice = 170;
+//        selectedSliceCheesecakeSize  = "1 Tub";
+//        updateSliceCheesecakePrice();
+//    });
+//    
+//    //mini cupcakes
+//    btn6PcsMiniCupcake.addActionListener(e->{
+//        miniCupcakesBasePrice = 98;
+//        selectedMiniCupcakesPieces = "6pcs";
+//        updateMiniCupcakesPrice();
+//        
+//    });
+//    btn12PcsMiniCupcake.addActionListener(e->{
+//        miniCupcakesBasePrice = 169;
+//        selectedMiniCupcakesPieces = "12pcs";
+//        updateMiniCupcakesPrice();
+//    });
+//    
+//    //pisces cupcakes
+//    btn1pcPisces.addActionListener(e->{ 
+//        piscesCupcakesBasePrice = 55;
+//        selectedPiscesCupcakePieces = "1pc";
+//        updatePiscesCupcakesPrice();        
+//    });
+//    btn3PcsPisces.addActionListener(e->{ 
+//        piscesCupcakesBasePrice = 99;
+//        selectedPiscesCupcakePieces = "3pcs";
+//        updatePiscesCupcakesPrice();        
+//    });
+//    btn4PcsPisces.addActionListener(e->{ 
+//        piscesCupcakesBasePrice = 149;
+//        selectedPiscesCupcakePieces = "4pcs";
+//        updatePiscesCupcakesPrice();        
+//    });
+//    btn6PcsPisces.addActionListener(e->{ 
+//        piscesCupcakesBasePrice = 300;
+//        selectedPiscesCupcakePieces = "6pcs";
+//        updatePiscesCupcakesPrice();        
+//    });
+//    btn12PcsPisces.addActionListener(e->{ 
+//        piscesCupcakesBasePrice = 600;
+//        selectedPiscesCupcakePieces = "12pcs";
+//        updatePiscesCupcakesPrice();        
+//    });
+//    
+//    //yema cake
+//    btn6x2Yemacake.addActionListener(e->{
+//        yemaCakeBasePrice = 699;
+//        selectedYemaCakeSize = "6x2";
+//        updateYemaCakePrice();
+//    });
+//    btn5x2Yemacake.addActionListener(e->{
+//        yemaCakeBasePrice = 399;
+//        selectedYemaCakeSize = "5x2";
+//        updateYemaCakePrice();
+//    });
+//    btn4x2Yemacake.addActionListener(e->{
+//        yemaCakeBasePrice = 299;
+//        selectedYemaCakeSize = "4x2";
+//        updateYemaCakePrice();
+//    });
     
     
     //ube pandesal 
-    btnUbeCheesedesal.addActionListener(e->{
-        ubePandesalBasePrice = 170;
-        selectedUbePandesalVariety = "Ube Cheesedesal";
-        updateCheesePandesalPrice();
-    });
-    btnUbeHalayaCheesedesal.addActionListener(e->{
-        ubePandesalBasePrice = 185;
-        selectedUbePandesalVariety = "Ube Halaya Cheesedesal";
-        updateCheesePandesalPrice();
-    });
-    
-    //bananaloaf 
-    btnMoistBananaChocoChipLoaf.addActionListener(e->{
-        bananaLoafBasePrice =  160;
-        selectedBananaLoafVariety = "Moist Banana Choco Chip Loaf";
-        updateBananaLoafPrice();
-    });
-    btnMoistBananaChocoChipAlmondLoaf.addActionListener(e->{
-        bananaLoafBasePrice =  190;
-        selectedBananaLoafVariety = "Moist Banana Choco Chip Almond Loaf";
-        updateBananaLoafPrice();
-    });
-    
-    //brownies
-    btn6PcsBrownies.addActionListener(e->{
-        browniesBasePrice = 150;
-        selectedBrowniesPieces = "6pcs";
-        updateBrowniesPrice();
-    });
-    btn12PcsBrownies.addActionListener(e->{
-        browniesBasePrice = 280;
-        selectedBrowniesPieces = "12pcs";
-        updateBrowniesPrice();
-    });
-    btn30PcsBrownies.addActionListener(e->{
-        browniesBasePrice = 750;
-        selectedBrowniesPieces = "30pcs";
-        updateBrowniesPrice();
-    });
-    
-    //classicCinnamon
-    btnBoxof4ClassicCinnamon.addActionListener(e->{
-        classicCinnamonBasePrice = 185;
-        selectedClassicCinnamonPieces = "Box of 4";
-        updateCinnamonPrice();
-    });
-    btnBoxof6ClassicCinnamon.addActionListener(e->{
-        classicCinnamonBasePrice = 280;
-         selectedClassicCinnamonPieces = "Box of 6";
-        updateCinnamonPrice();
-    });
-    
-    //milky cheese Donut
-    btn5PcsMilkyDonut.addActionListener(e->{
-        milkyCheeseDonutBasePrice = 125;
-        selectedMilkyCheeseDonutPieces = "5pcs";
-        updateMilkyCheeseDonutPrice();
-    });
-    btn10PcsMilkyDonut.addActionListener(e->{
-        milkyCheeseDonutBasePrice = 240;
-        selectedMilkyCheeseDonutPieces = "10pcs";
-        updateMilkyCheeseDonutPrice();
-    });
-    
-    //banana muffim
-    btn6PcsBananaMuffin.addActionListener(e->{
-        bananaMuffinBasePrice = 109;
-        selectedBananaMuffinPieces = "6pcs";
-        updateBananaMuffinPrice();
-    });
+//    btnUbeCheesedesal.addActionListener(e->{
+//        ubePandesalBasePrice = 170;
+//        selectedUbePandesalVariety = "Ube Cheesedesal";
+//        updateCheesePandesalPrice();
+//    });
+//    btnUbeHalayaCheesedesal.addActionListener(e->{
+//        ubePandesalBasePrice = 185;
+//        selectedUbePandesalVariety = "Ube Halaya Cheesedesal";
+//        updateCheesePandesalPrice();
+//    });
+//    
+//    //bananaloaf 
+//    btnMoistBananaChocoChipLoaf.addActionListener(e->{
+//        bananaLoafBasePrice =  160;
+//        selectedBananaLoafVariety = "Moist Banana Choco Chip Loaf";
+//        updateBananaLoafPrice();
+//    });
+//    btnMoistBananaChocoChipAlmondLoaf.addActionListener(e->{
+//        bananaLoafBasePrice =  190;
+//        selectedBananaLoafVariety = "Moist Banana Choco Chip Almond Loaf";
+//        updateBananaLoafPrice();
+//    });
+//    
+//    //brownies
+//    btn6PcsBrownies.addActionListener(e->{
+//        browniesBasePrice = 150;
+//        selectedBrowniesPieces = "6pcs";
+//        updateBrowniesPrice();
+//    });
+//    btn12PcsBrownies.addActionListener(e->{
+//        browniesBasePrice = 280;
+//        selectedBrowniesPieces = "12pcs";
+//        updateBrowniesPrice();
+//    });
+//    btn30PcsBrownies.addActionListener(e->{
+//        browniesBasePrice = 750;
+//        selectedBrowniesPieces = "30pcs";
+//        updateBrowniesPrice();
+//    });
+//    
+//    //classicCinnamon
+//    btnBoxof4ClassicCinnamon.addActionListener(e->{
+//        classicCinnamonBasePrice = 185;
+//        selectedClassicCinnamonPieces = "Box of 4";
+//        updateCinnamonPrice();
+//    });
+//    btnBoxof6ClassicCinnamon.addActionListener(e->{
+//        classicCinnamonBasePrice = 280;
+//         selectedClassicCinnamonPieces = "Box of 6";
+//        updateCinnamonPrice();
+//    });
+//    
+//    //milky cheese Donut
+//    btn5PcsMilkyDonut.addActionListener(e->{
+//        milkyCheeseDonutBasePrice = 125;
+//        selectedMilkyCheeseDonutPieces = "5pcs";
+//        updateMilkyCheeseDonutPrice();
+//    });
+//    btn10PcsMilkyDonut.addActionListener(e->{
+//        milkyCheeseDonutBasePrice = 240;
+//        selectedMilkyCheeseDonutPieces = "10pcs";
+//        updateMilkyCheeseDonutPrice();
+//    });
+//    
+//    //banana muffim
+//    btn6PcsBananaMuffin.addActionListener(e->{
+//        bananaMuffinBasePrice = 109;
+//        selectedBananaMuffinPieces = "6pcs";
+//        updateBananaMuffinPrice();
+//    });
     
    
 
     
     //actionlisteners for radiobuttons
    // Mango Bravo
-    mangoRadioButton.addItemListener(e -> {
-    // Assume selectedMangoBravoSize is a String and mangoQty is an int
-    String size = selectedMangoBravoSize;
-    int qty = mangoQty; // Or get the value from your quantity control
-
-    // Check if size or quantity is not set
-    if (size == null || size.isEmpty() || qty <= 0) {
-        // Show error message and unselect the radio button
-        JOptionPane.showMessageDialog(null,
-            "Please select a size and enter a quantity before adding Mango Bravo.",
-            "Selection Error",
-            JOptionPane.ERROR_MESSAGE);
-        // Uncheck the radio button programmatically
-        mangoRadioButton.setSelected(false);
-        return;
-        
-    }
-
-    // If all okay, continue as usual
-    String toppings = getSelectedToppingsByProduct("Mango Bravo");
-    addOrUpdateBillItem("Mango Bravo", qty, mangoBasePrice, size, toppings);
-    
-});
-
-// Red Velvet Cake  
-    redVelvetRadioButton.addItemListener(e -> {
-    String size = selectedRedVelvetSize;
-    int qty = redVelvetQty; // Or get the value from your quantity control
-
-    // Check if size or quantity is not set
-    if (size == null || size.isEmpty() || qty <= 0) {
-        // Show error message and unselect the radio button
-        JOptionPane.showMessageDialog(null,
-            "Please select a size and enter a quantity before adding Red Velvet Cake.",
-            "Selection Error",
-            JOptionPane.ERROR_MESSAGE);
-        // Uncheck the radio button programmatically
-        redVelvetRadioButton.setSelected(false);
-        return;
-    }
-
-    // If all okay, continue as usual
-    String toppings = getSelectedToppingsByProduct("Red Velvet");
-    addOrUpdateBillItem("Red Velvet", qty, redVelvetBasePrice, size, toppings);
-});
-
-// Strawberry Shortcake
-    strawberryshortcakeradioButton.addItemListener(e -> {
-    String size = selectedStrawberryShortcakeSize;
-    int qty = strawberryShortcakeQty; // Or get the value from your quantity control
-
-    // Check if size or quantity is not set
-    if (size == null || size.isEmpty() || qty <= 0) {
-        // Show error message and unselect the radio button
-        JOptionPane.showMessageDialog(null,
-            "Please select a size and enter a quantity before adding Strawberry Shortcake.",
-            "Selection Error",
-            JOptionPane.ERROR_MESSAGE);
-        // Uncheck the radio button programmatically
-        strawberryshortcakeradioButton.setSelected(false);
-        return;
-    }
-    String toppings = getSelectedToppingsByProduct("Stawberry Shortcake");
-    addOrUpdateBillItem("Strawberry Shortcake", qty, strawberryShortcakeBasePrice, size, toppings);
-});
-
-// Bento Cake
-    bentoCakeRadioButton.addItemListener(e -> {
-    String size = selectedBentoCakeSize;
-    int qty = bentoCakeQty; // Or get the value from your quantity control
-
-    // Check if size or quantity is not set
-    if (size == null || size.isEmpty() || qty <= 0) {
-        // Show error message and unselect the radio button
-        JOptionPane.showMessageDialog(null,
-            "Please select a size and enter a quantity before adding Bento Cake.",
-            "Selection Error",
-            JOptionPane.ERROR_MESSAGE);
-        // Uncheck the radio button programmatically
-        bentoCakeRadioButton.setSelected(false);
-        return;
-    }
-    String toppings = getSelectedToppingsByProduct("Bento Cake");
-    addOrUpdateBillItem("Bento Cake", qty, bentoCakeBasePrice, size, toppings);
-});
-
-// Caramel Flan de Leche
-    caramelFlanRadio.addItemListener(e -> {
-    String size = selectedCaramelFlanSize;
-    int qty = caramelFlanQty; // Or get the value from your quantity control
-
-    // Check if size or quantity is not set
-    if (size == null || size.isEmpty() || qty <= 0) {
-        // Show error message and unselect the radio button
-        JOptionPane.showMessageDialog(null,
-            "Please select a size and enter a quantity before adding Caramel Flan de Leche.",
-            "Selection Error",
-            JOptionPane.ERROR_MESSAGE);
-        // Uncheck the radio button programmatically
-        caramelFlanRadio.setSelected(false);
-        return;
-    }
-    String toppings = getSelectedToppingsByProduct("Caramel Flan");
-    addOrUpdateBillItem("Caramel Flan de Leche", qty, caramelFlanBasePrice, size, toppings);
-});
-
-// Cheesecake
-    cheeseCakeRadio.addItemListener(e -> {
-    String size = selectedCheesecakeSize;
-    int qty = cheesecakeQuantity; // Or get the value from your quantity control
-
-    // Check if size or quantity is not set
-    if (size == null || size.isEmpty() || qty <= 0) {
-        // Show error message and unselect the radio button
-        JOptionPane.showMessageDialog(null,
-            "Please select a size and enter a quantity before adding Cheesecake.",
-            "Selection Error",
-            JOptionPane.ERROR_MESSAGE);
-        // Uncheck the radio button programmatically
-        cheeseCakeRadio.setSelected(false);
-        return;
-    }
-    String toppings = getSelectedToppingsByProduct("Cheesecake");
-    addOrUpdateBillItem("Cheesecake", qty, cheesecakeBasePrice, size, toppings);
-});
-
-// Slice Cheesecake
-    sliceCheesecakeRadio.addItemListener(e -> {
-    String size = selectedSliceCheesecakeSize;
-    int qty = cheesecakeQuantity; // Or get the value from your quantity control
-
-    // Check if size or quantity is not set
-    if (size == null || size.isEmpty() || qty <= 0) {
-        // Show error message and unselect the radio button
-        JOptionPane.showMessageDialog(null,
-            "Please select a size and enter a quantity before adding Slice Cheesecake.",
-            "Selection Error",
-            JOptionPane.ERROR_MESSAGE);
-        // Uncheck the radio button programmatically
-        sliceCheesecakeRadio.setSelected(false);
-        return;
-    }
-    String toppings = getSelectedToppingsByProduct("Cheesecake");
-    addOrUpdateBillItem("Cheesecake", qty, cheesecakeBasePrice, size, toppings);
-});
-
-// Mango Bravo Tub
-    mangoBravoTubRadio.addItemListener(e -> {
-    String size = selectedMangoBravoTubPieces;
-    int qty = mangoBravoTubQty; // Or get the value from your quantity control
-
-    // Check if size or quantity is not set
-    if (size == null || size.isEmpty() || qty <= 0) {
-        // Show error message and unselect the radio button
-        JOptionPane.showMessageDialog(null,
-            "Please select a size and enter a quantity before adding Mango Bravo Tub.",
-            "Selection Error",
-            JOptionPane.ERROR_MESSAGE);
-        // Uncheck the radio button programmatically
-        mangoBravoTubRadio.setSelected(false);
-        return;
-    }
-    String toppings = getSelectedToppingsByProduct("Mango Bravo Tub");
-    addOrUpdateBillItem("Mango Bravo Tub", qty, mangoBravoTubBasePrice, size, toppings);
-    
-});
-
-// Mini Cupcakes
-    miniCupcakesRadio.addItemListener(e -> {
-    String size = selectedMiniCupcakesPieces;
-    int qty = miniCupcakesQty; // Or get the value from your quantity control
-
-    // Check if size or quantity is not set
-    if (size == null || size.isEmpty() || qty <= 0) {
-        // Show error message and unselect the radio button
-        JOptionPane.showMessageDialog(null,
-            "Please select a size and enter a quantity before adding Mini Cupcakes.",
-            "Selection Error",
-            JOptionPane.ERROR_MESSAGE);
-        // Uncheck the radio button programmatically
-        miniCupcakesRadio.setSelected(false);
-        return;
-    }
-    String toppings = getSelectedToppingsByProduct("Mini Cupcakes");
-    addOrUpdateBillItem("Mini Cupcakes", qty, miniCupcakesBasePrice, size, toppings);
-});
-
-// Pisces Cupcake
-    piscesRadio.addItemListener(e -> {
-    
-    String size = selectedPiscesCupcakePieces;
-    int qty = piscesCupcakesQty; // Or get the value from your quantity control
-
-    // Check if size or quantity is not set
-    if (size == null || size.isEmpty() || qty <= 0) {
-        // Show error message and unselect the radio button
-        JOptionPane.showMessageDialog(null,
-            "Please select a size and enter a quantity before adding Pisces Cupcakes.",
-            "Selection Error",
-            JOptionPane.ERROR_MESSAGE);
-        // Uncheck the radio button programmatically
-        piscesRadio.setSelected(false);
-        return;
-    }
-    String toppings = getSelectedToppingsByProduct("Pisces Cupcakes");
-    addOrUpdateBillItem("Pisces Cupcakes", qty, piscesCupcakesBasePrice, size, toppings);
-});
-
-// Yema Cake
-    yemaCakeRadio.addItemListener(e -> {
-    String size = selectedYemaCakeSize;
-    int qty = yemaCakeQty; // Or get the value from your quantity control
-
-    // Check if size or quantity is not set
-    if (size == null || size.isEmpty() || qty <= 0) {
-        // Show error message and unselect the radio button
-        JOptionPane.showMessageDialog(null,
-            "Please select a size and enter a quantity before adding Yema Cake.",
-            "Selection Error",
-            JOptionPane.ERROR_MESSAGE);
-        // Uncheck the radio button programmatically
-        yemaCakeRadio.setSelected(false);
-        return;
-    }
-    String toppings = getSelectedToppingsByProduct("Yema Cake");
-    addOrUpdateBillItem("Yema Cake", qty, yemaCakeBasePrice, size, toppings);
-});
+//    mangoRadioButton.addItemListener(e -> {
+//    // Assume selectedMangoBravoSize is a String and mangoQty is an int
+//    String size = selectedMangoBravoSize;
+//    int qty = mangoQty; // Or get the value from your quantity control
+//
+//    // Check if size or quantity is not set
+//    if (size == null || size.isEmpty() || qty <= 0) {
+//        // Show error message and unselect the radio button
+//        JOptionPane.showMessageDialog(null,
+//            "Please select a size and enter a quantity before adding Mango Bravo.",
+//            "Selection Error",
+//            JOptionPane.ERROR_MESSAGE);
+//        // Uncheck the radio button programmatically
+//        mangoRadioButton.setSelected(false);
+//        return;
+//        
+//    }
+//
+//    // If all okay, continue as usual
+//    String toppings = getSelectedToppingsByProduct("Mango Bravo");
+//    addOrUpdateBillItem("Mango Bravo", qty, mangoBasePrice, size, toppings);
+//    
+//});
+//
+//// Red Velvet Cake  
+//    redVelvetRadioButton.addItemListener(e -> {
+//    String size = selectedRedVelvetSize;
+//    int qty = redVelvetQty; // Or get the value from your quantity control
+//
+//    // Check if size or quantity is not set
+//    if (size == null || size.isEmpty() || qty <= 0) {
+//        // Show error message and unselect the radio button
+//        JOptionPane.showMessageDialog(null,
+//            "Please select a size and enter a quantity before adding Red Velvet Cake.",
+//            "Selection Error",
+//            JOptionPane.ERROR_MESSAGE);
+//        // Uncheck the radio button programmatically
+//        redVelvetRadioButton.setSelected(false);
+//        return;
+//    }
+//
+//    // If all okay, continue as usual
+//    String toppings = getSelectedToppingsByProduct("Red Velvet");
+//    addOrUpdateBillItem("Red Velvet", qty, redVelvetBasePrice, size, toppings);
+//});
+//
+//// Strawberry Shortcake
+//    strawberryshortcakeradioButton.addItemListener(e -> {
+//    String size = selectedStrawberryShortcakeSize;
+//    int qty = strawberryShortcakeQty; // Or get the value from your quantity control
+//
+//    // Check if size or quantity is not set
+//    if (size == null || size.isEmpty() || qty <= 0) {
+//        // Show error message and unselect the radio button
+//        JOptionPane.showMessageDialog(null,
+//            "Please select a size and enter a quantity before adding Strawberry Shortcake.",
+//            "Selection Error",
+//            JOptionPane.ERROR_MESSAGE);
+//        // Uncheck the radio button programmatically
+//        strawberryshortcakeradioButton.setSelected(false);
+//        return;
+//    }
+//    String toppings = getSelectedToppingsByProduct("Stawberry Shortcake");
+//    addOrUpdateBillItem("Strawberry Shortcake", qty, strawberryShortcakeBasePrice, size, toppings);
+//});
+//
+//// Bento Cake
+//    bentoCakeRadioButton.addItemListener(e -> {
+//    String size = selectedBentoCakeSize;
+//    int qty = bentoCakeQty; // Or get the value from your quantity control
+//
+//    // Check if size or quantity is not set
+//    if (size == null || size.isEmpty() || qty <= 0) {
+//        // Show error message and unselect the radio button
+//        JOptionPane.showMessageDialog(null,
+//            "Please select a size and enter a quantity before adding Bento Cake.",
+//            "Selection Error",
+//            JOptionPane.ERROR_MESSAGE);
+//        // Uncheck the radio button programmatically
+//        bentoCakeRadioButton.setSelected(false);
+//        return;
+//    }
+//    String toppings = getSelectedToppingsByProduct("Bento Cake");
+//    addOrUpdateBillItem("Bento Cake", qty, bentoCakeBasePrice, size, toppings);
+//});
+//
+//// Caramel Flan de Leche
+//    caramelFlanRadio.addItemListener(e -> {
+//    String size = selectedCaramelFlanSize;
+//    int qty = caramelFlanQty; // Or get the value from your quantity control
+//
+//    // Check if size or quantity is not set
+//    if (size == null || size.isEmpty() || qty <= 0) {
+//        // Show error message and unselect the radio button
+//        JOptionPane.showMessageDialog(null,
+//            "Please select a size and enter a quantity before adding Caramel Flan de Leche.",
+//            "Selection Error",
+//            JOptionPane.ERROR_MESSAGE);
+//        // Uncheck the radio button programmatically
+//        caramelFlanRadio.setSelected(false);
+//        return;
+//    }
+//    String toppings = getSelectedToppingsByProduct("Caramel Flan");
+//    addOrUpdateBillItem("Caramel Flan de Leche", qty, caramelFlanBasePrice, size, toppings);
+//});
+//
+//// Cheesecake
+//    cheeseCakeRadio.addItemListener(e -> {
+//    String size = selectedCheesecakeSize;
+//    int qty = cheesecakeQuantity; // Or get the value from your quantity control
+//
+//    // Check if size or quantity is not set
+//    if (size == null || size.isEmpty() || qty <= 0) {
+//        // Show error message and unselect the radio button
+//        JOptionPane.showMessageDialog(null,
+//            "Please select a size and enter a quantity before adding Cheesecake.",
+//            "Selection Error",
+//            JOptionPane.ERROR_MESSAGE);
+//        // Uncheck the radio button programmatically
+//        cheeseCakeRadio.setSelected(false);
+//        return;
+//    }
+//    String toppings = getSelectedToppingsByProduct("Cheesecake");
+//    addOrUpdateBillItem("Cheesecake", qty, cheesecakeBasePrice, size, toppings);
+//});
+//
+//// Slice Cheesecake
+//    sliceCheesecakeRadio.addItemListener(e -> {
+//    String size = selectedSliceCheesecakeSize;
+//    int qty = cheesecakeQuantity; // Or get the value from your quantity control
+//
+//    // Check if size or quantity is not set
+//    if (size == null || size.isEmpty() || qty <= 0) {
+//        // Show error message and unselect the radio button
+//        JOptionPane.showMessageDialog(null,
+//            "Please select a size and enter a quantity before adding Slice Cheesecake.",
+//            "Selection Error",
+//            JOptionPane.ERROR_MESSAGE);
+//        // Uncheck the radio button programmatically
+//        sliceCheesecakeRadio.setSelected(false);
+//        return;
+//    }
+//    String toppings = getSelectedToppingsByProduct("Cheesecake");
+//    addOrUpdateBillItem("Cheesecake", qty, cheesecakeBasePrice, size, toppings);
+//});
+//
+//// Mango Bravo Tub
+//    mangoBravoTubRadio.addItemListener(e -> {
+//    String size = selectedMangoBravoTubPieces;
+//    int qty = mangoBravoTubQty; // Or get the value from your quantity control
+//
+//    // Check if size or quantity is not set
+//    if (size == null || size.isEmpty() || qty <= 0) {
+//        // Show error message and unselect the radio button
+//        JOptionPane.showMessageDialog(null,
+//            "Please select a size and enter a quantity before adding Mango Bravo Tub.",
+//            "Selection Error",
+//            JOptionPane.ERROR_MESSAGE);
+//        // Uncheck the radio button programmatically
+//        mangoBravoTubRadio.setSelected(false);
+//        return;
+//    }
+//    String toppings = getSelectedToppingsByProduct("Mango Bravo Tub");
+//    addOrUpdateBillItem("Mango Bravo Tub", qty, mangoBravoTubBasePrice, size, toppings);
+//    
+//});
+//
+//// Mini Cupcakes
+//    miniCupcakesRadio.addItemListener(e -> {
+//    String size = selectedMiniCupcakesPieces;
+//    int qty = miniCupcakesQty; // Or get the value from your quantity control
+//
+//    // Check if size or quantity is not set
+//    if (size == null || size.isEmpty() || qty <= 0) {
+//        // Show error message and unselect the radio button
+//        JOptionPane.showMessageDialog(null,
+//            "Please select a size and enter a quantity before adding Mini Cupcakes.",
+//            "Selection Error",
+//            JOptionPane.ERROR_MESSAGE);
+//        // Uncheck the radio button programmatically
+//        miniCupcakesRadio.setSelected(false);
+//        return;
+//    }
+//    String toppings = getSelectedToppingsByProduct("Mini Cupcakes");
+//    addOrUpdateBillItem("Mini Cupcakes", qty, miniCupcakesBasePrice, size, toppings);
+//});
+//
+//// Pisces Cupcake
+//    piscesRadio.addItemListener(e -> {
+//    
+//    String size = selectedPiscesCupcakePieces;
+//    int qty = piscesCupcakesQty; // Or get the value from your quantity control
+//
+//    // Check if size or quantity is not set
+//    if (size == null || size.isEmpty() || qty <= 0) {
+//        // Show error message and unselect the radio button
+//        JOptionPane.showMessageDialog(null,
+//            "Please select a size and enter a quantity before adding Pisces Cupcakes.",
+//            "Selection Error",
+//            JOptionPane.ERROR_MESSAGE);
+//        // Uncheck the radio button programmatically
+//        piscesRadio.setSelected(false);
+//        return;
+//    }
+//    String toppings = getSelectedToppingsByProduct("Pisces Cupcakes");
+//    addOrUpdateBillItem("Pisces Cupcakes", qty, piscesCupcakesBasePrice, size, toppings);
+//});
+//
+//// Yema Cake
+//    yemaCakeRadio.addItemListener(e -> {
+//    String size = selectedYemaCakeSize;
+//    int qty = yemaCakeQty; // Or get the value from your quantity control
+//
+//    // Check if size or quantity is not set
+//    if (size == null || size.isEmpty() || qty <= 0) {
+//        // Show error message and unselect the radio button
+//        JOptionPane.showMessageDialog(null,
+//            "Please select a size and enter a quantity before adding Yema Cake.",
+//            "Selection Error",
+//            JOptionPane.ERROR_MESSAGE);
+//        // Uncheck the radio button programmatically
+//        yemaCakeRadio.setSelected(false);
+//        return;
+//    }
+//    String toppings = getSelectedToppingsByProduct("Yema Cake");
+//    addOrUpdateBillItem("Yema Cake", qty, yemaCakeBasePrice, size, toppings);
+//});
    
 
-// Ube Pandesal
-    ubePandesalRadio.addItemListener(e -> {
-    String size = selectedUbePandesalVariety;
-    int qty = ubePandesalQty; // Or get the value from your quantity control
-
-    // Check if size or quantity is not set
-    if (size == null || size.isEmpty() || qty <= 0) {
-        // Show error message and unselect the radio button
-        JOptionPane.showMessageDialog(null,
-            "Please select a size and enter a quantity before adding Ube Pandesal.",
-            "Selection Error",
-            JOptionPane.ERROR_MESSAGE);
-        // Uncheck the radio button programmatically
-        ubePandesalRadio.setSelected(false);
-        return;
-    }
-    String toppings = getSelectedToppingsByProduct("Ube Pandesal");
-    addOrUpdateBillItem("Ube Pandesal", qty, yemaCakeBasePrice, size, toppings);
-});
-
-// Banana Loaf
-    BananaLoafRadio.addItemListener(e -> {
-    String size = selectedBananaLoafVariety;
-    int qty = bananaLoafQty; // Or get the value from your quantity control
-
-    // Check if size or quantity is not set
-    if (size == null || size.isEmpty() || qty <= 0) {
-        // Show error message and unselect the radio button
-        JOptionPane.showMessageDialog(null,
-            "Please select a size and enter a quantity before adding Banana Loaf.",
-            "Selection Error",
-            JOptionPane.ERROR_MESSAGE);
-        // Uncheck the radio button programmatically
-        BananaLoafRadio.setSelected(false);
-        return;
-    }
-    String toppings = getSelectedToppingsByProduct("Banana Loaf");
-    addOrUpdateBillItem("Banana Loaf", qty, bananaLoafBasePrice, size, toppings);
-});
-
-// Brownies
-    browniesRadio.addItemListener(e -> {
-    String size = selectedBrowniesPieces;
-    int qty = browniesQty; // Or get the value from your quantity control
-
-    // Check if size or quantity is not set
-    if (size == null || size.isEmpty() || qty <= 0) {
-        // Show error message and unselect the radio button
-        JOptionPane.showMessageDialog(null,
-            "Please select a size and enter a quantity before adding Brownies.",
-            "Selection Error",
-            JOptionPane.ERROR_MESSAGE);
-        // Uncheck the radio button programmatically
-        browniesRadio.setSelected(false);
-        return;
-    }
-    String toppings = getSelectedToppingsByProduct("Brownies");
-    addOrUpdateBillItem("Brownies", qty, browniesBasePrice, size, toppings);
+//// Ube Pandesal
+//    ubePandesalRadio.addItemListener(e -> {
+//    String size = selectedUbePandesalVariety;
+//    int qty = ubePandesalQty; // Or get the value from your quantity control
+//
+//    // Check if size or quantity is not set
+//    if (size == null || size.isEmpty() || qty <= 0) {
+//        // Show error message and unselect the radio button
+//        JOptionPane.showMessageDialog(null,
+//            "Please select a size and enter a quantity before adding Ube Pandesal.",
+//            "Selection Error",
+//            JOptionPane.ERROR_MESSAGE);
+//        // Uncheck the radio button programmatically
+//        ubePandesalRadio.setSelected(false);
+//        return;
+//    }
+//    String toppings = getSelectedToppingsByProduct("Ube Pandesal");
+//    addOrUpdateBillItem("Ube Pandesal", qty, yemaCakeBasePrice, size, toppings);
+//});
+//
+//// Banana Loaf
+//    BananaLoafRadio.addItemListener(e -> {
+//    String size = selectedBananaLoafVariety;
+//    int qty = bananaLoafQty; // Or get the value from your quantity control
+//
+//    // Check if size or quantity is not set
+//    if (size == null || size.isEmpty() || qty <= 0) {
+//        // Show error message and unselect the radio button
+//        JOptionPane.showMessageDialog(null,
+//            "Please select a size and enter a quantity before adding Banana Loaf.",
+//            "Selection Error",
+//            JOptionPane.ERROR_MESSAGE);
+//        // Uncheck the radio button programmatically
+//        BananaLoafRadio.setSelected(false);
+//        return;
+//    }
+//    String toppings = getSelectedToppingsByProduct("Banana Loaf");
+//    addOrUpdateBillItem("Banana Loaf", qty, bananaLoafBasePrice, size, toppings);
+//});
+//
+//// Brownies
+//    browniesRadio.addItemListener(e -> {
+//    String size = selectedBrowniesPieces;
+//    int qty = browniesQty; // Or get the value from your quantity control
+//
+//    // Check if size or quantity is not set
+//    if (size == null || size.isEmpty() || qty <= 0) {
+//        // Show error message and unselect the radio button
+//        JOptionPane.showMessageDialog(null,
+//            "Please select a size and enter a quantity before adding Brownies.",
+//            "Selection Error",
+//            JOptionPane.ERROR_MESSAGE);
+//        // Uncheck the radio button programmatically
+//        browniesRadio.setSelected(false);
+//        return;
+//    }
+//    String toppings = getSelectedToppingsByProduct("Brownies");
+//    addOrUpdateBillItem("Brownies", qty, browniesBasePrice, size, toppings);
+//    
+//});
+//
+//// Classic
+//    classicCinnamonRadio.addItemListener(e -> {
+//    String size = selectedClassicCinnamonPieces;
+//    int qty = classicCinnamonQty; // Or get the value from your quantity control
+//
+//    // Check if size or quantity is not set
+//    if (size == null || size.isEmpty() || qty <= 0) {
+//        // Show error message and unselect the radio button
+//        JOptionPane.showMessageDialog(null,
+//            "Please select a size and enter a quantity before adding Classic Cinnamon.",
+//            "Selection Error",
+//            JOptionPane.ERROR_MESSAGE);
+//        // Uncheck the radio button programmatically
+//        classicCinnamonRadio.setSelected(false);
+//        return;
+//    }
+//    String toppings = getSelectedToppingsByProduct("Classic Cinnamon");
+//    addOrUpdateBillItem("Classic Cinnamon", qty, classicCinnamonBasePrice, size, toppings);
+//});
+//
+//// Milky Cheese Donut
+//    milkyCheeseRadio.addItemListener(e -> {
+//    String size = selectedMilkyCheeseDonutPieces;
+//    int qty = milkyCheeseDonutQty; // Or get the value from your quantity control
+//
+//    // Check if size or quantity is not set
+//    if (size == null || size.isEmpty() || qty <= 0) {
+//        // Show error message and unselect the radio button
+//        JOptionPane.showMessageDialog(null,
+//            "Please select a size and enter a quantity before adding Milky Cheese Donut.",
+//            "Selection Error",
+//            JOptionPane.ERROR_MESSAGE);
+//        // Uncheck the radio button programmatically
+//        milkyCheeseRadio.setSelected(false);
+//        return;
+//    }
+//    String toppings = getSelectedToppingsByProduct("Milky Cheese");
+//    addOrUpdateBillItem("Milky Cheese Donut", qty, milkyCheeseDonutBasePrice, size, toppings);
+//});
+//
+//// Banana Muffin
+//    bananaMuffinRadio.addItemListener(e -> {
+//    String size = selectedBananaMuffinPieces;
+//    int qty = bananaMuffinQty; // Or get the value from your quantity control
+//
+//    // Check if size or quantity is not set
+//    if (size == null || size.isEmpty() || qty <= 0) {
+//        // Show error message and unselect the radio button
+//        JOptionPane.showMessageDialog(null,
+//            "Please select a size and enter a quantity before adding Banana Muffin.",
+//            "Selection Error",
+//            JOptionPane.ERROR_MESSAGE);
+//        // Uncheck the radio button programmatically
+//        bananaMuffinRadio.setSelected(false);
+//        return;
+//    }
+//    String toppings = getSelectedToppingsByProduct("Banana Muffin");
+//    addOrUpdateBillItem("Banana Muffin", qty, bananaMuffinBasePrice, size, toppings);
+//});
     
-});
-
-// Classic
-    classicCinnamonRadio.addItemListener(e -> {
-    String size = selectedClassicCinnamonPieces;
-    int qty = classicCinnamonQty; // Or get the value from your quantity control
-
-    // Check if size or quantity is not set
-    if (size == null || size.isEmpty() || qty <= 0) {
-        // Show error message and unselect the radio button
-        JOptionPane.showMessageDialog(null,
-            "Please select a size and enter a quantity before adding Classic Cinnamon.",
-            "Selection Error",
-            JOptionPane.ERROR_MESSAGE);
-        // Uncheck the radio button programmatically
-        classicCinnamonRadio.setSelected(false);
-        return;
-    }
-    String toppings = getSelectedToppingsByProduct("Classic Cinnamon");
-    addOrUpdateBillItem("Classic Cinnamon", qty, classicCinnamonBasePrice, size, toppings);
-});
-
-// Milky Cheese Donut
-    milkyCheeseRadio.addItemListener(e -> {
-    String size = selectedMilkyCheeseDonutPieces;
-    int qty = milkyCheeseDonutQty; // Or get the value from your quantity control
-
-    // Check if size or quantity is not set
-    if (size == null || size.isEmpty() || qty <= 0) {
-        // Show error message and unselect the radio button
-        JOptionPane.showMessageDialog(null,
-            "Please select a size and enter a quantity before adding Milky Cheese Donut.",
-            "Selection Error",
-            JOptionPane.ERROR_MESSAGE);
-        // Uncheck the radio button programmatically
-        milkyCheeseRadio.setSelected(false);
-        return;
-    }
-    String toppings = getSelectedToppingsByProduct("Milky Cheese");
-    addOrUpdateBillItem("Milky Cheese Donut", qty, milkyCheeseDonutBasePrice, size, toppings);
-});
-
-// Banana Muffin
-    bananaMuffinRadio.addItemListener(e -> {
-    String size = selectedBananaMuffinPieces;
-    int qty = bananaMuffinQty; // Or get the value from your quantity control
-
-    // Check if size or quantity is not set
-    if (size == null || size.isEmpty() || qty <= 0) {
-        // Show error message and unselect the radio button
-        JOptionPane.showMessageDialog(null,
-            "Please select a size and enter a quantity before adding Banana Muffin.",
-            "Selection Error",
-            JOptionPane.ERROR_MESSAGE);
-        // Uncheck the radio button programmatically
-        bananaMuffinRadio.setSelected(false);
-        return;
-    }
-    String toppings = getSelectedToppingsByProduct("Banana Muffin");
-    addOrUpdateBillItem("Banana Muffin", qty, bananaMuffinBasePrice, size, toppings);
-});
-    
-    btnCustomeCakeIcingCake.addActionListener(e -> {
-    Icingcustomcake icingFrame = new Icingcustomcake(this);
-    icingFrame.setVisible(true);
-});
-    
-    
-    btnMinimalistCakeCustomCake.addActionListener(e -> {
-    new MinimalistCustomCake(this).setVisible(true);
-});
-    
-    
-    
-    customCakeButton.addActionListener(e -> {
-    
-    String sizePattern = "^\\d+x\\d+[a-zA-Z]*$";
-    String size = null;
-    while (true) {
-        size = JOptionPane.showInputDialog(this, "Enter fondant cake size (e.g. 8x2, 10x4in):", "Fondant Cake Size", JOptionPane.QUESTION_MESSAGE);
-        if (size == null) return; // User cancelled
-        size = size.trim();
-        if (size.matches(sizePattern)) {
-            break; // Valid
-        } else {
-            JOptionPane.showMessageDialog(this, "Invalid size format. Please use e.g. 8x2 or 10x4in.", "Input Error", JOptionPane.ERROR_MESSAGE);
-        }
-    }
-
-    // Prompt for declared value/price
-    String valueStr = null;
-    int price = 0;
-    while (true) {
-        valueStr = JOptionPane.showInputDialog(this, "Enter declared value/price for this fondant cake:", "Fondant Cake Price", JOptionPane.QUESTION_MESSAGE);
-        if (valueStr == null) return; // User cancelled
-        valueStr = valueStr.trim();
-        try {
-            price = Integer.parseInt(valueStr);
-            if (price > 0) break;
-            else throw new NumberFormatException();
-        } catch (NumberFormatException ex) {
-            JOptionPane.showMessageDialog(this, "Please enter a valid positive integer for the price.", "Input Error", JOptionPane.ERROR_MESSAGE);
-        }
-    }
-
-    // Add to bill
-    String productName = "Fondant Custom Cake (" + size + ")";
-    String entry = String.format("%s | Qty: %d | ₱%d", productName, 1, price);
-    billListModel.addElement(entry);
-    updateTotalAmountLabel();
-});
-    
+//    btnCustomeCakeIcingCake.addActionListener(e -> {
+//    Icingcustomcake icingFrame = new Icingcustomcake(this);
+//    icingFrame.setVisible(true);
+//});
+//    
+//    
+//    btnMinimalistCakeCustomCake.addActionListener(e -> {
+//    new MinimalistCustomCake(this).setVisible(true);
+//});
+//    
+//    
+//    
+//    customCakeButton.addActionListener(e -> {
+//    
+//    String sizePattern = "^\\d+x\\d+[a-zA-Z]*$";
+//    String size = null;
+//    while (true) {
+//        size = JOptionPane.showInputDialog(this, "Enter fondant cake size (e.g. 8x2, 10x4in):", "Fondant Cake Size", JOptionPane.QUESTION_MESSAGE);
+//        if (size == null) return; // User cancelled
+//        size = size.trim();
+//        if (size.matches(sizePattern)) {
+//            break; // Valid
+//        } else {
+//            JOptionPane.showMessageDialog(this, "Invalid size format. Please use e.g. 8x2 or 10x4in.", "Input Error", JOptionPane.ERROR_MESSAGE);
+//        }
+//    }
+//
+//    // Prompt for declared value/price
+//    String valueStr = null;
+//    int price = 0;
+//    while (true) {
+//        valueStr = JOptionPane.showInputDialog(this, "Enter declared value/price for this fondant cake:", "Fondant Cake Price", JOptionPane.QUESTION_MESSAGE);
+//        if (valueStr == null) return; // User cancelled
+//        valueStr = valueStr.trim();
+//        try {
+//            price = Integer.parseInt(valueStr);
+//            if (price > 0) break;
+//            else throw new NumberFormatException();
+//        } catch (NumberFormatException ex) {
+//            JOptionPane.showMessageDialog(this, "Please enter a valid positive integer for the price.", "Input Error", JOptionPane.ERROR_MESSAGE);
+//        }
+//    }
+//
+//    // Add to bill
+//    String productName = "Fondant Custom Cake (" + size + ")";
+//    String entry = String.format("%s | Qty: %d | ₱%d", productName, 1, price);
+//    billListModel.addElement(entry);
+//    updateTotalAmountLabel();
+//});
+//    
     
     //action listener for receipt 
     payByCashBtn.addActionListener(e -> {
@@ -1234,58 +1234,58 @@ private void saveOrderToDatabase() {
     
     
     //methods for getting the toppings
-    private String getSelectedToppingsByProduct(String productName) {
-    StringBuilder toppings = new StringBuilder();
-    switch (productName) {
-        case "Mango Bravo":
-            if (mangoToppings.isSelected()) toppings.append("Mango Toppings");
-            break;
-        case "Strawberry Shortcake": // fixed typo
-            if (strawberryToppingsShortcake.isSelected()) 
-                toppings.append("Strawberry Toppings, ");
-            break;
-        case "Cheesecake":
-            if (blueberryToppingsCheesecake.isSelected()) toppings.append("Blueberry Toppings, ");
-            if (mangoToppingsCheesecake.isSelected()) toppings.append("Mango Toppings, ");
-            if (biscoffToppingsCheesecake.isSelected()) toppings.append("Biscoff Toppings, ");
-            if (strawberryToppingsCheesecake.isSelected()) toppings.append("Strawberry Toppings, ");
-            break;
-        case "Caramel Flan":
-            if (caramelToppingsLecheFlan.isSelected()) toppings.append("Caramel Toppings, ");
-            if (lecheFlanToppingsCake.isSelected()) toppings.append("Leche Flan Toppings, ");
-            break;
-        case "Slice Cheesecake":
-            if (blueberryToppingsSliceCheesecake.isSelected()) toppings.append("Blueberry Toppings, ");
-            if (mangoToppingsSliceCheesecake.isSelected()) toppings.append("Mango Toppings, ");
-            if (biscoffToppingsSliceCheesecake.isSelected()) toppings.append("Biscoff Toppings, ");
-            if (strawberryToppingsSliceCheesecake.isSelected()) toppings.append("Strawberry Toppings, ");
-            break;
-        // No toppings for these products
-        case "Red Velvet":
-        case "Bento Cake":
-        case "Mango Bravo Tub":
-        case "Mini Cupcakes":
-        case "Pisces Cupcakes":
-        case "Ube Pandesal":
-        case "Banana Loaf":
-        case "Brownies":
-        case "Classic Cinnamon":
-        case "Milky Cheese Donut":
-        case "Banana Muffin":
-            return "None";
-        default:
-            return "None";
-    }
-    // Remove trailing comma and space, if any
-    if (toppings.length() > 0) {
-        if (toppings.charAt(toppings.length() - 2) == ',' && toppings.charAt(toppings.length() - 1) == ' ') {
-            toppings.setLength(toppings.length() - 2);
-        }
-        return toppings.toString();
-    } else {
-        return "None";
-    }
-}
+//    private String getSelectedToppingsByProduct(String productName) {
+//    StringBuilder toppings = new StringBuilder();
+//    switch (productName) {
+//        case "Mango Bravo":
+//            if (mangoToppings.isSelected()) toppings.append("Mango Toppings");
+//            break;
+//        case "Strawberry Shortcake": // fixed typo
+//            if (strawberryToppingsShortcake.isSelected()) 
+//                toppings.append("Strawberry Toppings, ");
+//            break;
+//        case "Cheesecake":
+//            if (blueberryToppingsCheesecake.isSelected()) toppings.append("Blueberry Toppings, ");
+//            if (mangoToppingsCheesecake.isSelected()) toppings.append("Mango Toppings, ");
+//            if (biscoffToppingsCheesecake.isSelected()) toppings.append("Biscoff Toppings, ");
+//            if (strawberryToppingsCheesecake.isSelected()) toppings.append("Strawberry Toppings, ");
+//            break;
+//        case "Caramel Flan":
+//            if (caramelToppingsLecheFlan.isSelected()) toppings.append("Caramel Toppings, ");
+//            if (lecheFlanToppingsCake.isSelected()) toppings.append("Leche Flan Toppings, ");
+//            break;
+//        case "Slice Cheesecake":
+//            if (blueberryToppingsSliceCheesecake.isSelected()) toppings.append("Blueberry Toppings, ");
+//            if (mangoToppingsSliceCheesecake.isSelected()) toppings.append("Mango Toppings, ");
+//            if (biscoffToppingsSliceCheesecake.isSelected()) toppings.append("Biscoff Toppings, ");
+//            if (strawberryToppingsSliceCheesecake.isSelected()) toppings.append("Strawberry Toppings, ");
+//            break;
+//        // No toppings for these products
+//        case "Red Velvet":
+//        case "Bento Cake":
+//        case "Mango Bravo Tub":
+//        case "Mini Cupcakes":
+//        case "Pisces Cupcakes":
+//        case "Ube Pandesal":
+//        case "Banana Loaf":
+//        case "Brownies":
+//        case "Classic Cinnamon":
+//        case "Milky Cheese Donut":
+//        case "Banana Muffin":
+//            return "None";
+//        default:
+//            return "None";
+//    }
+//    // Remove trailing comma and space, if any
+//    if (toppings.length() > 0) {
+//        if (toppings.charAt(toppings.length() - 2) == ',' && toppings.charAt(toppings.length() - 1) == ' ') {
+//            toppings.setLength(toppings.length() - 2);
+//        }
+//        return toppings.toString();
+//    } else {
+//        return "None";
+//    }
+//}
     
     
     
@@ -1386,7 +1386,6 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
         btnBreadSweets1 = new javax.swing.JButton();
         jLabel4 = new javax.swing.JLabel();
         backButton = new javax.swing.JButton();
-        jPanel5 = new javax.swing.JPanel();
         BillPanel = new javax.swing.JPanel();
         dateLabel = new javax.swing.JLabel();
         totalstaticlabel = new javax.swing.JLabel();
@@ -1689,19 +1688,6 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
             }
         });
         productsPanel.add(backButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(15, 490, 160, 40));
-
-        javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
-        jPanel5.setLayout(jPanel5Layout);
-        jPanel5Layout.setHorizontalGroup(
-            jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 100, Short.MAX_VALUE)
-        );
-        jPanel5Layout.setVerticalGroup(
-            jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 100, Short.MAX_VALUE)
-        );
-
-        productsPanel.add(jPanel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 290, -1, -1));
 
         jPanel3.add(productsPanel, new org.netbeans.lib.awtextra.AbsoluteConstraints(16, 58, 190, 690));
 
@@ -2720,7 +2706,7 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
                             .addComponent(jPanel43, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addComponent(jPanel27, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addComponent(jPanel84, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                        .addContainerGap(101, Short.MAX_VALUE))))
+                        .addContainerGap(24, Short.MAX_VALUE))))
         );
         cakesPanelLayout.setVerticalGroup(
             cakesPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -2749,7 +2735,7 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
                 .addGroup(cakesPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(jPanel88, javax.swing.GroupLayout.PREFERRED_SIZE, 121, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jPanel92, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addContainerGap(480, Short.MAX_VALUE))
+                .addContainerGap(33, Short.MAX_VALUE))
         );
 
         jScrollPane1.setViewportView(cakesPanel);
@@ -3832,84 +3818,84 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
     
         
     
-    private void updateMangoPrice() {
-    int total = (mangoBasePrice) * mangoQty;
-    mangoPrice.setText("Php: " + total + ".00");
-    }
-    private void updateRedVelvetPrice(){
-       int total = (redVelvetBasePrice) * redVelvetQty;
-       redVelvetCakePrice.setText("Php: " + total + ".00"); 
-    }
-    
-    private void updateStrawberryShortPrice(){
-       int total = (strawberryShortcakeBasePrice) * strawberryShortcakeQty ;
-       strawberryShortCakePrice.setText("Php: " + total + ".00"); 
-    }
-    
-    private void updateBentoCakePrice(){
-        int total = (bentoCakeBasePrice) * bentoCakeQty;
-        bentoCakePrice.setText("Php: " + total + ".00");
-        
-    }
-    private void updateCheeseCakePrice(){
-        int total = (cheesecakeBasePrice) * cheesecakeQuantity;
-        cheeseCakePrice.setText("Php: " + total + ".00");
-    }
-    private void updateCaramelLechePrice(){
-        int total = (caramelFlanBasePrice) * caramelFlanQty;
-        caramelFlanDeLecheCakePrice.setText("Php: " + total + ".00");
-    }
-    private void updateMangoBravoTubPrice(){
-        mangoBravoTubBasePrice = 170;
-        int total = (mangoBravoTubBasePrice) * mangoBravoTubQty;
-        mangoBravoTubPrice.setText("Php: " + total + ".00");
-        
-    }
-    private void updateSliceCheesecakePrice(){
-        slicecheesecakeBasePrice = 175;
-        int total = (slicecheesecakeBasePrice) * slicecheesecakeQty;
-        sliceCheesecakePrice.setText("Php: " + total + ".00");
-        
-    }
-    private void updateMiniCupcakesPrice(){
-        int total = (miniCupcakesBasePrice) * miniCupcakesQty;
-        miniCupcakesPrice.setText("Php: " + total + ".00");
-    }
-    private void updatePiscesCupcakesPrice(){
-        int total = piscesCupcakesBasePrice * piscesCupcakesQty;
-        piscesCupcakesPrice.setText("Php: " + total + ".00");
-    }
-    private void updateYemaCakePrice(){
-        
-        int total = (yemaCakeBasePrice) * yemaCakeQty;
-        lbPhpYemaCake.setText("Php: " + total + ".00");
-        
-    }
-    private void updateCheesePandesalPrice(){
-         int total = (ubePandesalBasePrice) * ubePandesalQty;
-         lbPhpUbePandesal.setText("Php: " + total + ".00");
-    }
-    private void updateBananaLoafPrice(){
-        int total  = (bananaLoafBasePrice)* bananaLoafQty;
-        lbPhpBananaLoaf.setText("Php: " + total + ".00");
-    }
-    private void updateBrowniesPrice(){
-        int total = (browniesBasePrice) * browniesQty;
-        lbPhpBrownies.setText("Php: " + total + ".00");
-    }
-    private void updateCinnamonPrice(){
-        int total = (classicCinnamonQty) * classicCinnamonBasePrice;
-        lbPhpClassicCinnamon.setText("Php: " + total + ".00");
-        
-    }
-    private void updateMilkyCheeseDonutPrice(){
-        int total = (milkyCheeseDonutQty) * milkyCheeseDonutBasePrice;
-        lbPhpMilkyDonut.setText("Php: " + total + ".00");
-    }
-    private void updateBananaMuffinPrice(){
-        int total = (bananaMuffinQty) * bananaMuffinBasePrice;
-        lbPhpMuffin.setText("Php: " + total + ".00");
-    }
+//    private void updateMangoPrice() {
+//    int total = (mangoBasePrice) * mangoQty;
+//    mangoPrice.setText("Php: " + total + ".00");
+//    }
+//    private void updateRedVelvetPrice(){
+//       int total = (redVelvetBasePrice) * redVelvetQty;
+//       redVelvetCakePrice.setText("Php: " + total + ".00"); 
+//    }
+//    
+//    private void updateStrawberryShortPrice(){
+//       int total = (strawberryShortcakeBasePrice) * strawberryShortcakeQty ;
+//       strawberryShortCakePrice.setText("Php: " + total + ".00"); 
+//    }
+//    
+//    private void updateBentoCakePrice(){
+//        int total = (bentoCakeBasePrice) * bentoCakeQty;
+//        bentoCakePrice.setText("Php: " + total + ".00");
+//        
+//    }
+//    private void updateCheeseCakePrice(){
+//        int total = (cheesecakeBasePrice) * cheesecakeQuantity;
+//        cheeseCakePrice.setText("Php: " + total + ".00");
+//    }
+//    private void updateCaramelLechePrice(){
+//        int total = (caramelFlanBasePrice) * caramelFlanQty;
+//        caramelFlanDeLecheCakePrice.setText("Php: " + total + ".00");
+//    }
+//    private void updateMangoBravoTubPrice(){
+//        mangoBravoTubBasePrice = 170;
+//        int total = (mangoBravoTubBasePrice) * mangoBravoTubQty;
+//        mangoBravoTubPrice.setText("Php: " + total + ".00");
+//        
+//    }
+//    private void updateSliceCheesecakePrice(){
+//        slicecheesecakeBasePrice = 175;
+//        int total = (slicecheesecakeBasePrice) * slicecheesecakeQty;
+//        sliceCheesecakePrice.setText("Php: " + total + ".00");
+//        
+//    }
+//    private void updateMiniCupcakesPrice(){
+//        int total = (miniCupcakesBasePrice) * miniCupcakesQty;
+//        miniCupcakesPrice.setText("Php: " + total + ".00");
+//    }
+//    private void updatePiscesCupcakesPrice(){
+//        int total = piscesCupcakesBasePrice * piscesCupcakesQty;
+//        piscesCupcakesPrice.setText("Php: " + total + ".00");
+//    }
+//    private void updateYemaCakePrice(){
+//        
+//        int total = (yemaCakeBasePrice) * yemaCakeQty;
+//        lbPhpYemaCake.setText("Php: " + total + ".00");
+//        
+//    }
+//    private void updateCheesePandesalPrice(){
+//         int total = (ubePandesalBasePrice) * ubePandesalQty;
+//         lbPhpUbePandesal.setText("Php: " + total + ".00");
+//    }
+//    private void updateBananaLoafPrice(){
+//        int total  = (bananaLoafBasePrice)* bananaLoafQty;
+//        lbPhpBananaLoaf.setText("Php: " + total + ".00");
+//    }
+//    private void updateBrowniesPrice(){
+//        int total = (browniesBasePrice) * browniesQty;
+//        lbPhpBrownies.setText("Php: " + total + ".00");
+//    }
+//    private void updateCinnamonPrice(){
+//        int total = (classicCinnamonQty) * classicCinnamonBasePrice;
+//        lbPhpClassicCinnamon.setText("Php: " + total + ".00");
+//        
+//    }
+//    private void updateMilkyCheeseDonutPrice(){
+//        int total = (milkyCheeseDonutQty) * milkyCheeseDonutBasePrice;
+//        lbPhpMilkyDonut.setText("Php: " + total + ".00");
+//    }
+//    private void updateBananaMuffinPrice(){
+//        int total = (bananaMuffinQty) * bananaMuffinBasePrice;
+//        lbPhpMuffin.setText("Php: " + total + ".00");
+//    }
     
     
     private void btnCakeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCakeActionPerformed
@@ -3941,52 +3927,52 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
     }//GEN-LAST:event_txtSearchFocusLost
 
     private void btnMinusUbePandesalActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnMinusUbePandesalActionPerformed
-       if(ubePandesalQty>0){
-           ubePandesalQty--;
-           lbzeroUbePandesal.setText(String.valueOf(ubePandesalQty));
-           updateCheesePandesalPrice();
-       }
+//       if(ubePandesalQty>0){
+//           ubePandesalQty--;
+//           lbzeroUbePandesal.setText(String.valueOf(ubePandesalQty));
+//           updateCheesePandesalPrice();
+//       }
     }//GEN-LAST:event_btnMinusUbePandesalActionPerformed
 
     private void btnMinusBananaLoafActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnMinusBananaLoafActionPerformed
-        if(bananaLoafQty>0){
-            bananaLoafQty--;
-            lbzeroBananaLoaf.setText(String.valueOf(bananaLoafQty));
-            updateBananaLoafPrice();
-        }
+//        if(bananaLoafQty>0){
+//            bananaLoafQty--;
+//            lbzeroBananaLoaf.setText(String.valueOf(bananaLoafQty));
+//            updateBananaLoafPrice();
+//        }
     }//GEN-LAST:event_btnMinusBananaLoafActionPerformed
 
     private void btnMinusBrowniesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnMinusBrowniesActionPerformed
-       if(browniesQty>0){
-           browniesQty--;
-           lbzeroBrownies.setText(String.valueOf(browniesQty));
-           updateBrowniesPrice();
-       }
+//       if(browniesQty>0){
+//           browniesQty--;
+//           lbzeroBrownies.setText(String.valueOf(browniesQty));
+//           updateBrowniesPrice();
+//       }
     }//GEN-LAST:event_btnMinusBrowniesActionPerformed
 
     private void btnMinusClassicCinnamonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnMinusClassicCinnamonActionPerformed
-        if(classicCinnamonQty>0){
-            classicCinnamonQty--;
-            lbzeroClassicCinnamon.setText(String.valueOf(classicCinnamonQty));
-            updateCinnamonPrice();
-        }
+//        if(classicCinnamonQty>0){
+//            classicCinnamonQty--;
+//            lbzeroClassicCinnamon.setText(String.valueOf(classicCinnamonQty));
+//            updateCinnamonPrice();
+//        }
     }//GEN-LAST:event_btnMinusClassicCinnamonActionPerformed
 
     private void btnMinusMilkyDonutActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnMinusMilkyDonutActionPerformed
-       if(milkyCheeseDonutQty>0){
-           milkyCheeseDonutQty--;
-           lbzeroMilkyDonut.setText(String.valueOf(milkyCheeseDonutQty));
-           updateMilkyCheeseDonutPrice();
-           
-       }
+//       if(milkyCheeseDonutQty>0){
+//           milkyCheeseDonutQty--;
+//           lbzeroMilkyDonut.setText(String.valueOf(milkyCheeseDonutQty));
+//           updateMilkyCheeseDonutPrice();
+//           
+//       }
     }//GEN-LAST:event_btnMinusMilkyDonutActionPerformed
 
     private void btnMinuMuffinActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnMinuMuffinActionPerformed
-        if(bananaMuffinQty>0){
-            bananaMuffinQty--;
-            lbzeroMuffin.setText(String.valueOf(bananaMuffinQty));
-            updateBananaMuffinPrice();
-        }
+//        if(bananaMuffinQty>0){
+//            bananaMuffinQty--;
+//            lbzeroMuffin.setText(String.valueOf(bananaMuffinQty));
+//            updateBananaMuffinPrice();
+//        }
     }//GEN-LAST:event_btnMinuMuffinActionPerformed
 
     private void backButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_backButtonActionPerformed
@@ -3997,39 +3983,39 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
     }//GEN-LAST:event_backButtonActionPerformed
 
     private void btnPlusClassicCinnamonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnPlusClassicCinnamonActionPerformed
-        classicCinnamonQty++;
-        lbzeroClassicCinnamon.setText(String.valueOf(classicCinnamonQty));
-        updateCinnamonPrice();
+//        classicCinnamonQty++;
+//        lbzeroClassicCinnamon.setText(String.valueOf(classicCinnamonQty));
+//        updateCinnamonPrice();
     }//GEN-LAST:event_btnPlusClassicCinnamonActionPerformed
 
     private void btnPlusUbePandesalActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnPlusUbePandesalActionPerformed
-        ubePandesalQty++;
-        lbzeroUbePandesal.setText(String.valueOf(ubePandesalQty));
-        updateCheesePandesalPrice();
+//        ubePandesalQty++;
+//        lbzeroUbePandesal.setText(String.valueOf(ubePandesalQty));
+//        updateCheesePandesalPrice();
     }//GEN-LAST:event_btnPlusUbePandesalActionPerformed
 
     private void btnPlusBananaLoafActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnPlusBananaLoafActionPerformed
-        bananaLoafQty++;
-        lbzeroBananaLoaf.setText(String.valueOf(bananaLoafQty));
-        updateBananaLoafPrice();
+//        bananaLoafQty++;
+//        lbzeroBananaLoaf.setText(String.valueOf(bananaLoafQty));
+//        updateBananaLoafPrice();
     }//GEN-LAST:event_btnPlusBananaLoafActionPerformed
 
     private void btnPlusBrowniesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnPlusBrowniesActionPerformed
-        browniesQty++;
-        lbzeroBrownies.setText(String.valueOf(browniesQty));
-        updateBrowniesPrice();
+//        browniesQty++;
+//        lbzeroBrownies.setText(String.valueOf(browniesQty));
+//        updateBrowniesPrice();
     }//GEN-LAST:event_btnPlusBrowniesActionPerformed
 
     private void btnPlusMilkyDonutActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnPlusMilkyDonutActionPerformed
-        milkyCheeseDonutQty++;
-        lbzeroMilkyDonut.setText(String.valueOf(milkyCheeseDonutQty));
-        updateMilkyCheeseDonutPrice();
+//        milkyCheeseDonutQty++;
+//        lbzeroMilkyDonut.setText(String.valueOf(milkyCheeseDonutQty));
+//        updateMilkyCheeseDonutPrice();
     }//GEN-LAST:event_btnPlusMilkyDonutActionPerformed
 
     private void btnPlusMuffinActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnPlusMuffinActionPerformed
-       bananaMuffinQty++;
-       lbzeroMuffin.setText(String.valueOf(bananaMuffinQty));
-       updateBananaMuffinPrice();
+//       bananaMuffinQty++;
+//       lbzeroMuffin.setText(String.valueOf(bananaMuffinQty));
+//       updateBananaMuffinPrice();
     }//GEN-LAST:event_btnPlusMuffinActionPerformed
 
     private void payByCashBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_payByCashBtnActionPerformed
@@ -4037,7 +4023,7 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
     }//GEN-LAST:event_payByCashBtnActionPerformed
 
     private void AddMangoBravoToPanelActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AddMangoBravoToPanelActionPerformed
-        // TODO add your handling code here:
+       
     }//GEN-LAST:event_AddMangoBravoToPanelActionPerformed
     
 
@@ -4197,7 +4183,6 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
     private javax.swing.JPanel jPanel44;
     private javax.swing.JPanel jPanel47;
     private javax.swing.JPanel jPanel48;
-    private javax.swing.JPanel jPanel5;
     private javax.swing.JPanel jPanel51;
     private javax.swing.JPanel jPanel52;
     private javax.swing.JPanel jPanel55;
