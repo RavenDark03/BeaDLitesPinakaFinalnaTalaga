@@ -637,7 +637,7 @@
                                                       <Component id="jPanel27" alignment="0" max="32767" attributes="0"/>
                                                       <Component id="jPanel84" alignment="0" max="32767" attributes="0"/>
                                                   </Group>
-                                                  <EmptySpace pref="58" max="32767" attributes="0"/>
+                                                  <EmptySpace pref="14" max="32767" attributes="0"/>
                                               </Group>
                                           </Group>
                                       </Group>
@@ -675,7 +675,7 @@
                                               <Component id="jPanel88" min="-2" pref="121" max="-2" attributes="0"/>
                                               <Component id="jPanel92" max="32767" attributes="0"/>
                                           </Group>
-                                          <EmptySpace pref="474" max="32767" attributes="0"/>
+                                          <EmptySpace pref="74" max="32767" attributes="0"/>
                                       </Group>
                                   </Group>
                                 </DimensionLayout>
@@ -694,7 +694,7 @@
                                           <Group type="102" alignment="0" attributes="0">
                                               <EmptySpace max="-2" attributes="0"/>
                                               <Component id="iconPanel" min="-2" max="-2" attributes="0"/>
-                                              <EmptySpace max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" max="-2" attributes="0"/>
                                               <Group type="103" groupAlignment="0" attributes="0">
                                                   <Component id="MangoBravolabel" pref="148" max="32767" attributes="0"/>
                                                   <Component id="AddMangoBravoToPanel" max="32767" attributes="0"/>
@@ -733,47 +733,22 @@
                                           <Group type="103" groupAlignment="0" attributes="0">
                                               <Group type="102" alignment="0" attributes="0">
                                                   <EmptySpace max="-2" attributes="0"/>
-                                                  <Component id="jLabel43" min="-2" max="-2" attributes="0"/>
-                                                  <EmptySpace pref="118" max="32767" attributes="0"/>
-                                              </Group>
-                                              <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
-                                                  <Group type="102" alignment="0" attributes="0">
-                                                      <EmptySpace max="-2" attributes="0"/>
-                                                      <Component id="jPanel18" min="-2" max="-2" attributes="0"/>
-                                                      <EmptySpace max="32767" attributes="0"/>
-                                                  </Group>
+                                                  <Component id="jPanel18" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace max="32767" attributes="0"/>
                                               </Group>
                                           </Group>
                                         </DimensionLayout>
                                         <DimensionLayout dim="1">
                                           <Group type="103" groupAlignment="0" attributes="0">
-                                              <Group type="102" alignment="0" attributes="0">
-                                                  <EmptySpace max="-2" attributes="0"/>
-                                                  <Component id="jLabel43" min="-2" max="-2" attributes="0"/>
-                                                  <EmptySpace max="32767" attributes="0"/>
-                                              </Group>
-                                              <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
-                                                  <Group type="102" attributes="0">
-                                                      <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
-                                                      <Component id="jPanel18" max="32767" attributes="0"/>
-                                                      <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
-                                                  </Group>
+                                              <Group type="102" attributes="0">
+                                                  <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
+                                                  <Component id="jPanel18" max="32767" attributes="0"/>
+                                                  <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
                                               </Group>
                                           </Group>
                                         </DimensionLayout>
                                       </Layout>
                                       <SubComponents>
-                                        <Component class="javax.swing.JLabel" name="jLabel43">
-                                          <Properties>
-                                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                                              <Color blue="2c" green="87" red="e1" type="rgb"/>
-                                            </Property>
-                                            <Property name="horizontalAlignment" type="int" value="0"/>
-                                            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                                              <Image iconType="3" name="/images/Mango bravo.jpg"/>
-                                            </Property>
-                                          </Properties>
-                                        </Component>
                                         <Container class="javax.swing.JPanel" name="jPanel18">
                                           <Properties>
                                             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
@@ -876,7 +851,7 @@
                                     <DimensionLayout dim="1">
                                       <Group type="103" groupAlignment="0" attributes="0">
                                           <Group type="102" alignment="1" attributes="0">
-                                              <EmptySpace pref="8" max="32767" attributes="0"/>
+                                              <EmptySpace max="32767" attributes="0"/>
                                               <Group type="103" groupAlignment="1" max="-2" attributes="0">
                                                   <Component id="jPanel17" max="32767" attributes="0"/>
                                                   <Group type="102" attributes="0">
@@ -885,7 +860,7 @@
                                                       <Component id="AddRedVelvetCakeToPanel" min="-2" pref="43" max="-2" attributes="0"/>
                                                   </Group>
                                               </Group>
-                                              <EmptySpace pref="10" max="32767" attributes="0"/>
+                                              <EmptySpace max="32767" attributes="0"/>
                                           </Group>
                                       </Group>
                                     </DimensionLayout>
@@ -1091,11 +1066,16 @@
                                               <EmptySpace max="-2" attributes="0"/>
                                               <Component id="jPanel52" min="-2" max="-2" attributes="0"/>
                                               <EmptySpace max="-2" attributes="0"/>
-                                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                                  <Component id="AddBentoCakeToPanel" pref="145" max="32767" attributes="0"/>
-                                                  <Component id="BentoCakelabel" max="32767" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Group type="102" attributes="0">
+                                                      <Component id="BentoCakelabel" min="-2" pref="145" max="-2" attributes="0"/>
+                                                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                                  </Group>
+                                                  <Group type="102" attributes="0">
+                                                      <Component id="AddBentoCakeToPanel" max="32767" attributes="0"/>
+                                                      <EmptySpace max="-2" attributes="0"/>
+                                                  </Group>
                                               </Group>
-                                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                                           </Group>
                                       </Group>
                                     </DimensionLayout>
@@ -1169,6 +1149,9 @@
                                         </Property>
                                         <Property name="text" type="java.lang.String" value="ADD"/>
                                       </Properties>
+                                      <Events>
+                                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="AddBentoCakeToPanelActionPerformed"/>
+                                      </Events>
                                     </Component>
                                     <Component class="javax.swing.JLabel" name="BentoCakelabel">
                                       <Properties>
@@ -2350,7 +2333,7 @@
                                               <Component id="jPanel67" max="32767" attributes="0"/>
                                               <Component id="jPanel80" max="32767" attributes="0"/>
                                           </Group>
-                                          <EmptySpace min="-2" pref="215" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="251" max="-2" attributes="0"/>
                                       </Group>
                                   </Group>
                                 </DimensionLayout>
@@ -2369,7 +2352,7 @@
                                               <Component id="jPanel72" min="-2" max="-2" attributes="0"/>
                                               <Component id="jPanel80" alignment="0" max="32767" attributes="0"/>
                                           </Group>
-                                          <EmptySpace pref="879" max="32767" attributes="0"/>
+                                          <EmptySpace pref="384" max="32767" attributes="0"/>
                                       </Group>
                                   </Group>
                                 </DimensionLayout>
@@ -2841,7 +2824,7 @@
                                               <Component id="jPanel77" min="-2" max="-2" attributes="0"/>
                                               <EmptySpace max="-2" attributes="0"/>
                                               <Group type="103" groupAlignment="0" attributes="0">
-                                                  <Component id="MilkyCheeseDonutlabel" pref="148" max="32767" attributes="0"/>
+                                                  <Component id="MilkyCheeseDonutlabel" max="32767" attributes="0"/>
                                                   <Component id="AddMilkyCheeseDonutToPanel" alignment="0" max="32767" attributes="0"/>
                                                   <Component id="Donut" alignment="1" max="32767" attributes="0"/>
                                               </Group>
