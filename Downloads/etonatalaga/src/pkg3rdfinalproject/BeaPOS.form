@@ -583,10 +583,7 @@
                         </DimensionLayout>
                         <DimensionLayout dim="1">
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Group type="102" alignment="0" attributes="0">
-                                  <Component id="jScrollPane1" pref="753" max="32767" attributes="0"/>
-                                  <EmptySpace max="-2" attributes="0"/>
-                              </Group>
+                              <Component id="jScrollPane1" alignment="0" pref="695" max="32767" attributes="0"/>
                           </Group>
                         </DimensionLayout>
                       </Layout>
@@ -678,7 +675,7 @@
                                               <Component id="jPanel88" min="-2" pref="121" max="-2" attributes="0"/>
                                               <Component id="jPanel92" max="32767" attributes="0"/>
                                           </Group>
-                                          <EmptySpace pref="495" max="32767" attributes="0"/>
+                                          <EmptySpace pref="474" max="32767" attributes="0"/>
                                       </Group>
                                   </Group>
                                 </DimensionLayout>
@@ -759,7 +756,7 @@
                                             </Property>
                                             <Property name="horizontalAlignment" type="int" value="0"/>
                                             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                                              <Image iconType="3" name="/images/Mango Bravo.jpg"/>
+                                              <Image iconType="3" name="/images/Mango bravo.jpg"/>
                                             </Property>
                                           </Properties>
                                         </Component>
@@ -813,7 +810,7 @@
                                               <Group type="103" groupAlignment="0" attributes="0">
                                                   <Group type="102" attributes="0">
                                                       <Component id="AddRedVelvetCakeToPanel" min="-2" pref="145" max="-2" attributes="0"/>
-                                                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                                      <EmptySpace min="0" pref="3" max="32767" attributes="0"/>
                                                   </Group>
                                                   <Component id="RedVelvetCakelabel" max="32767" attributes="0"/>
                                               </Group>
@@ -874,7 +871,7 @@
                                             </Property>
                                             <Property name="horizontalAlignment" type="int" value="0"/>
                                             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                                              <Image iconType="3" name="/images/Red Velvet Cake.jpg"/>
+                                              <Image iconType="3" name="/images/b81690e5-b1dd-4a5f-8dd0-4d09b24d2ecf.jpg"/>
                                             </Property>
                                           </Properties>
                                         </Component>
@@ -988,7 +985,7 @@
                                               <Color blue="2c" green="87" red="e1" type="rgb"/>
                                             </Property>
                                             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                                              <Image iconType="3" name="/images/Strawberry Shortcake.jpg"/>
+                                              <Image iconType="3" name="/images/strawberry cake.jpg"/>
                                             </Property>
                                           </Properties>
                                         </Component>
@@ -1098,7 +1095,7 @@
                                               <Color blue="2c" green="87" red="e1" type="rgb"/>
                                             </Property>
                                             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                                              <Image iconType="3" name="/images/Bento Cake.jpg"/>
+                                              <Image iconType="3" name="/images/Bento _1.jpg"/>
                                             </Property>
                                           </Properties>
                                         </Component>
@@ -1208,7 +1205,7 @@
                                               <Color blue="2c" green="87" red="e1" type="rgb"/>
                                             </Property>
                                             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                                              <Image iconType="3" name="/images/Caramel flan de leche Cake.png"/>
+                                              <Image iconType="3" name="/images/87960fcc-fa36-41bd-92dd-bfa842c9fe36.png"/>
                                             </Property>
                                           </Properties>
                                         </Component>
@@ -1316,7 +1313,7 @@
                                               <Color blue="2c" green="87" red="e1" type="rgb"/>
                                             </Property>
                                             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                                              <Image iconType="3" name="/images/Cheesecake.jpg"/>
+                                              <Image iconType="3" name="/images/cheesecake(1).jpg"/>
                                             </Property>
                                           </Properties>
                                         </Component>
@@ -1424,7 +1421,7 @@
                                               <Color blue="2c" green="87" red="e1" type="rgb"/>
                                             </Property>
                                             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                                              <Image iconType="3" name="/images/Slice Cheesecake.jpg"/>
+                                              <Image iconType="3" name="/images/per slice cheesee cake.jpg"/>
                                             </Property>
                                           </Properties>
                                         </Component>
@@ -1533,7 +1530,7 @@
                                               <Color blue="2c" green="87" red="e1" type="rgb"/>
                                             </Property>
                                             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                                              <Image iconType="3" name="/images/Mango Bravo Tub.jpg"/>
+                                              <Image iconType="3" name="/images/b183dd51-ca7d-43cf-a2e3-da67038c0f2a (1).jpg"/>
                                             </Property>
                                           </Properties>
                                         </Component>
@@ -1641,7 +1638,7 @@
                                               <Color blue="2c" green="87" red="e1" type="rgb"/>
                                             </Property>
                                             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                                              <Image iconType="3" name="/images/Mini Cupcake.jpg"/>
+                                              <Image iconType="3" name="/images/minicupcake.jpg"/>
                                             </Property>
                                           </Properties>
                                         </Component>
@@ -1749,7 +1746,7 @@
                                               <Color blue="2c" green="87" red="e1" type="rgb"/>
                                             </Property>
                                             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                                              <Image iconType="3" name="/images/Pisces Cupcake.jpg"/>
+                                              <Image iconType="3" name="/images/cupcake.jpg"/>
                                             </Property>
                                           </Properties>
                                         </Component>
@@ -1857,7 +1854,7 @@
                                               <Color blue="2c" green="87" red="e1" type="rgb"/>
                                             </Property>
                                             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                                              <Image iconType="3" name="/images/Icing Custom Cake.jpg"/>
+                                              <Image iconType="3" name="/images/Icing cake.jpg"/>
                                             </Property>
                                           </Properties>
                                         </Component>
@@ -1968,7 +1965,7 @@
                                               <Color blue="2c" green="87" red="e1" type="rgb"/>
                                             </Property>
                                             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                                              <Image iconType="3" name="/images/Minimalist Custom Cake.jpg"/>
+                                              <Image iconType="3" name="/images/minimalist.jpg"/>
                                             </Property>
                                           </Properties>
                                         </Component>
@@ -2088,7 +2085,7 @@
                                               <Color blue="2c" green="87" red="e1" type="rgb"/>
                                             </Property>
                                             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                                              <Image iconType="3" name="/images/Fondant Custom Cake.jpg"/>
+                                              <Image iconType="3" name="/images/Fondant.jpg"/>
                                             </Property>
                                           </Properties>
                                         </Component>
@@ -2196,7 +2193,7 @@
                                               <Color blue="2c" green="87" red="e1" type="rgb"/>
                                             </Property>
                                             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                                              <Image iconType="3" name="/images/Yema Cake.jpg"/>
+                                              <Image iconType="3" name="/images/YemaCake.jpg"/>
                                             </Property>
                                           </Properties>
                                         </Component>
@@ -2254,8 +2251,8 @@
                         <DimensionLayout dim="1">
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="102" alignment="0" attributes="0">
-                                  <Component id="jScrollPane2" min="-2" pref="382" max="-2" attributes="0"/>
-                                  <EmptySpace min="0" pref="377" max="32767" attributes="0"/>
+                                  <Component id="jScrollPane2" min="-2" pref="1148" max="-2" attributes="0"/>
+                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                               </Group>
                           </Group>
                         </DimensionLayout>
@@ -2737,7 +2734,7 @@
                                             </Property>
                                             <Property name="horizontalAlignment" type="int" value="0"/>
                                             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                                              <Image iconType="3" name="/images/Classic Cinnamon Roll.jpg"/>
+                                              <Image iconType="3" name="/images/Cinnamon.jpg"/>
                                             </Property>
                                           </Properties>
                                         </Component>
@@ -2852,7 +2849,7 @@
                                             </Property>
                                             <Property name="horizontalAlignment" type="int" value="0"/>
                                             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                                              <Image iconType="3" name="/images/Milky Cheese Donut.jpg"/>
+                                              <Image iconType="3" name="/images/Milky donut.jpg"/>
                                             </Property>
                                           </Properties>
                                         </Component>

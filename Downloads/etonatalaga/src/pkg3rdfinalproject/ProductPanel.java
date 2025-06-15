@@ -129,7 +129,7 @@ public class ProductPanel extends javax.swing.JFrame {
         toppingsButton2 = new javax.swing.JToggleButton();
         toppingsButton3 = new javax.swing.JToggleButton();
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.DO_NOTHING_ON_CLOSE);
+        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jPanel1.setBackground(new java.awt.Color(44, 204, 98));
 
