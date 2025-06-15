@@ -4,6 +4,8 @@
  */
 package pkg3rdfinalproject;
 
+import javax.swing.JButton;
+
 /**
  *
  * @author Lynch
@@ -13,35 +15,83 @@ public class ProductPanel extends javax.swing.JFrame {
     /**
      * Creates new form ProductPanel
      */
-    private BeaPOS parent;
-    
-    public ProductPanel(BeaPOS parent, String productName, String[] sizes, String[] toppings) {
-        this.parent = parent;
-        initComponents();
-        setLocationRelativeTo(null);
-        this.productName = productName;
-        this.sizes = sizes;
-        this.toppings = toppings;
-        setUpProductDisplay();
-    }
-    
+     private BeaPOS parent;
+
+    // Product info fields
     private String productName;
     private String[] sizes;
     private String[] toppings;
     private int quantity = 1;
+
+    // Selected options
+    private String selectedSize = "";
+    private String selectedToppings = "";
+    
+    
+     public ProductPanel() {
+        super();
+        initComponents();
+    }
+    
+     public ProductPanel(BeaPOS parent, String productName, String[] sizes, String[] toppings) {
+        this.parent = parent;
+        this.productName = productName;
+        this.sizes = sizes;
+        this.toppings = toppings;
+        initComponents(); // Must be called after setting fields used in display
+        setLocationRelativeTo(null);
+        setUpProductDisplay();
+        setupToppings(toppings);
+        
+    }
+    
+    
     
     private void setUpProductDisplay() {
-        ProductLabel.setText(productName);
+    ProductLabel.setText(productName);
 
-        // Example: set size buttons
-        sizeButton.setText(sizes.length > 0 ? sizes[0] : "");
-        sizeButton2.setText(sizes.length > 1 ? sizes[1] : "");
-        sizeButton3.setText(sizes.length > 2 ? sizes[2] : "");
+    sizeButton.setVisible(sizes.length > 0);
+    sizeButton.setText(sizes.length > 0 ? sizes[0] : "");
+    sizeButton2.setVisible(sizes.length > 1);
+    sizeButton2.setText(sizes.length > 1 ? sizes[1] : "");
+    sizeButton3.setVisible(sizes.length > 2);
+    sizeButton3.setText(sizes.length > 2 ? sizes[2] : "");
+    selectedSize = sizes.length > 0 ? sizes[0] : "";
 
-        
+    // Set toppings buttons visibility and text
+    toppingsButton.setVisible(toppings.length > 0);
+    toppingsButton.setText(toppings.length > 0 ? toppings[0] : "");
+    toppingsButton1.setVisible(toppings.length > 1);
+    toppingsButton1.setText(toppings.length > 1 ? toppings[1] : "");
+    toppingsButton2.setVisible(toppings.length > 2);
+    toppingsButton2.setText(toppings.length > 2 ? toppings[2] : "");
+    toppingsButton3.setVisible(toppings.length > 3);
+    toppingsButton3.setText(toppings.length > 3 ? toppings[3] : "");
 
-        quantityLabel.setText(String.valueOf(quantity));
+    quantityLabel.setText(String.valueOf(quantity));
     }
+     
+    private void setupToppings(String[] toppings) {
+    toppingsPanel.removeAll(); // Remove any previous buttons
+    
+
+    for (String topping : toppings) {
+        JButton btn = new JButton();
+        btn.setText(topping); // Or setText("") if you only want the icon
+        // Set icon if 
+        // btn.setIcon(getToppingIcon(topping));
+        btn.addActionListener(e -> {
+            selectedToppings = topping; // Store selected topping
+            // If you want to allow multiple toppings, append/add to a list instead
+        });
+        toppingsPanel.add(btn);
+        // For radio buttons (single choice), use JRadioButton instead and add to toppingsGroup
+    }
+
+    toppingsPanel.revalidate();
+    toppingsPanel.repaint();
+}
+
 
     
     /**
@@ -66,7 +116,6 @@ public class ProductPanel extends javax.swing.JFrame {
         sizeButton2 = new javax.swing.JToggleButton();
         sizeButton = new javax.swing.JToggleButton();
         jLabel72 = new javax.swing.JLabel();
-        toppingsButton = new javax.swing.JToggleButton();
         doneButton = new javax.swing.JToggleButton();
         productQuantityMinusBtn = new javax.swing.JButton();
         productQuantityPlusButton = new javax.swing.JButton();
@@ -74,6 +123,11 @@ public class ProductPanel extends javax.swing.JFrame {
         jLabel73 = new javax.swing.JLabel();
         jLabel74 = new javax.swing.JLabel();
         CancelButton = new javax.swing.JToggleButton();
+        toppingsPanel = new javax.swing.JPanel();
+        toppingsButton = new javax.swing.JToggleButton();
+        toppingsButton1 = new javax.swing.JToggleButton();
+        toppingsButton2 = new javax.swing.JToggleButton();
+        toppingsButton3 = new javax.swing.JToggleButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -97,7 +151,7 @@ public class ProductPanel extends javax.swing.JFrame {
         );
         jPanel5Layout.setVerticalGroup(
             jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 725, Short.MAX_VALUE)
+            .addGap(0, 832, Short.MAX_VALUE)
         );
 
         jScrollPane1.setViewportView(jPanel5);
@@ -130,30 +184,41 @@ public class ProductPanel extends javax.swing.JFrame {
         ProductLabel.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         ProductLabel.setForeground(new java.awt.Color(225, 135, 44));
         ProductLabel.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        ProductLabel.setText("Mango Bravo");
+        ProductLabel.setText("Product Label");
 
         sizeButton3.setBackground(new java.awt.Color(255, 255, 153));
         sizeButton3.setFont(new java.awt.Font("Segoe UI Black", 1, 18)); // NOI18N
         sizeButton3.setForeground(new java.awt.Color(225, 135, 44));
         sizeButton3.setText("6 x 2\"");
+        sizeButton3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                sizeButton3ActionPerformed(evt);
+            }
+        });
 
         sizeButton2.setBackground(new java.awt.Color(255, 255, 153));
         sizeButton2.setFont(new java.awt.Font("Segoe UI Black", 1, 18)); // NOI18N
         sizeButton2.setForeground(new java.awt.Color(225, 135, 44));
         sizeButton2.setText("5 x 2\"");
+        sizeButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                sizeButton2ActionPerformed(evt);
+            }
+        });
 
         sizeButton.setBackground(new java.awt.Color(255, 255, 153));
         sizeButton.setFont(new java.awt.Font("Segoe UI Black", 1, 18)); // NOI18N
         sizeButton.setForeground(new java.awt.Color(225, 135, 44));
         sizeButton.setText("4 x 2\"");
+        sizeButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                sizeButtonActionPerformed(evt);
+            }
+        });
 
         jLabel72.setFont(new java.awt.Font("Segoe UI Black", 1, 18)); // NOI18N
         jLabel72.setForeground(new java.awt.Color(225, 135, 44));
         jLabel72.setText("Toppings:");
-
-        toppingsButton.setBackground(new java.awt.Color(255, 255, 153));
-        toppingsButton.setForeground(new java.awt.Color(255, 204, 102));
-        toppingsButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/mango.png"))); // NOI18N
 
         doneButton.setBackground(new java.awt.Color(255, 255, 153));
         doneButton.setFont(new java.awt.Font("Segoe UI Black", 1, 24)); // NOI18N
@@ -202,6 +267,76 @@ public class ProductPanel extends javax.swing.JFrame {
         CancelButton.setFont(new java.awt.Font("Segoe UI Black", 1, 24)); // NOI18N
         CancelButton.setForeground(new java.awt.Color(225, 135, 44));
         CancelButton.setText("Cancel");
+        CancelButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                CancelButtonActionPerformed(evt);
+            }
+        });
+
+        toppingsPanel.setBackground(new java.awt.Color(255, 204, 102));
+
+        toppingsButton.setBackground(new java.awt.Color(255, 255, 153));
+        toppingsButton.setForeground(new java.awt.Color(255, 204, 102));
+        toppingsButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/mango.png"))); // NOI18N
+        toppingsButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                toppingsButtonActionPerformed(evt);
+            }
+        });
+
+        toppingsButton1.setBackground(new java.awt.Color(255, 255, 153));
+        toppingsButton1.setForeground(new java.awt.Color(255, 204, 102));
+        toppingsButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/mango.png"))); // NOI18N
+        toppingsButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                toppingsButton1ActionPerformed(evt);
+            }
+        });
+
+        toppingsButton2.setBackground(new java.awt.Color(255, 255, 153));
+        toppingsButton2.setForeground(new java.awt.Color(255, 204, 102));
+        toppingsButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/mango.png"))); // NOI18N
+        toppingsButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                toppingsButton2ActionPerformed(evt);
+            }
+        });
+
+        toppingsButton3.setBackground(new java.awt.Color(255, 255, 153));
+        toppingsButton3.setForeground(new java.awt.Color(255, 204, 102));
+        toppingsButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/mango.png"))); // NOI18N
+        toppingsButton3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                toppingsButton3ActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout toppingsPanelLayout = new javax.swing.GroupLayout(toppingsPanel);
+        toppingsPanel.setLayout(toppingsPanelLayout);
+        toppingsPanelLayout.setHorizontalGroup(
+            toppingsPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, toppingsPanelLayout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(toppingsButton, javax.swing.GroupLayout.PREFERRED_SIZE, 120, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(toppingsButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 120, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(toppingsButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 120, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(toppingsButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 120, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
+        );
+        toppingsPanelLayout.setVerticalGroup(
+            toppingsPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, toppingsPanelLayout.createSequentialGroup()
+                .addContainerGap(17, Short.MAX_VALUE)
+                .addGroup(toppingsPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(toppingsButton, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(toppingsButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(toppingsButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(toppingsButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(15, 15, 15))
+        );
 
         javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
         jPanel4.setLayout(jPanel4Layout);
@@ -210,49 +345,47 @@ public class ProductPanel extends javax.swing.JFrame {
             .addGroup(jPanel4Layout.createSequentialGroup()
                 .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel4Layout.createSequentialGroup()
-                        .addGap(159, 159, 159)
-                        .addComponent(productQuantityMinusBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(85, 85, 85)
+                        .addComponent(sizeButton, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(18, 18, 18)
-                        .addComponent(quantityLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 65, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(sizeButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 129, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(18, 18, 18)
-                        .addComponent(productQuantityPlusButton, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(jPanel4Layout.createSequentialGroup()
-                        .addGap(65, 65, 65)
-                        .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(jLabel72)
-                            .addComponent(jLabel74))))
-                .addGap(0, 0, Short.MAX_VALUE))
-            .addGroup(jPanel4Layout.createSequentialGroup()
-                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addComponent(sizeButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 129, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(0, 0, Short.MAX_VALUE))
                     .addGroup(jPanel4Layout.createSequentialGroup()
                         .addContainerGap()
                         .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jPanel9, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addComponent(ProductLabel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addGroup(jPanel4Layout.createSequentialGroup()
-                                .addGap(46, 46, 46)
-                                .addComponent(sizeButton, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(toppingsButton, javax.swing.GroupLayout.PREFERRED_SIZE, 120, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addGroup(jPanel4Layout.createSequentialGroup()
-                                        .addComponent(sizeButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 129, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(18, 18, 18)
-                                        .addComponent(sizeButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 129, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                                .addGap(0, 54, Short.MAX_VALUE))))
+                            .addComponent(toppingsPanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
                     .addGroup(jPanel4Layout.createSequentialGroup()
-                        .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel4Layout.createSequentialGroup()
-                                .addGap(85, 85, 85)
-                                .addComponent(jLabel73))
-                            .addGroup(jPanel4Layout.createSequentialGroup()
-                                .addGap(138, 138, 138)
-                                .addComponent(doneButton, javax.swing.GroupLayout.PREFERRED_SIZE, 259, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(jPanel4Layout.createSequentialGroup()
-                                .addGap(138, 138, 138)
-                                .addComponent(CancelButton, javax.swing.GroupLayout.PREFERRED_SIZE, 259, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addContainerGap()
+                        .addComponent(jLabel72)
                         .addGap(0, 0, Short.MAX_VALUE)))
                 .addContainerGap())
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel4Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(productQuantityMinusBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(quantityLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 65, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(productQuantityPlusButton, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(184, 184, 184))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel4Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(doneButton, javax.swing.GroupLayout.PREFERRED_SIZE, 259, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(CancelButton, javax.swing.GroupLayout.PREFERRED_SIZE, 259, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(145, 145, 145))
+            .addGroup(jPanel4Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel4Layout.createSequentialGroup()
+                        .addComponent(jLabel73)
+                        .addGap(0, 0, Short.MAX_VALUE))
+                    .addGroup(jPanel4Layout.createSequentialGroup()
+                        .addComponent(jLabel74)
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
         );
         jPanel4Layout.setVerticalGroup(
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -263,27 +396,27 @@ public class ProductPanel extends javax.swing.JFrame {
                 .addComponent(jPanel9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jLabel73)
-                .addGap(17, 17, 17)
+                .addGap(18, 18, 18)
                 .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(sizeButton, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(sizeButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(sizeButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(24, 24, 24)
+                .addGap(23, 23, 23)
                 .addComponent(jLabel72)
-                .addGap(16, 16, 16)
-                .addComponent(toppingsButton, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(22, 22, 22)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(toppingsPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(28, 28, 28)
                 .addComponent(jLabel74)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGap(27, 27, 27)
                 .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(productQuantityMinusBtn)
                     .addComponent(quantityLabel)
                     .addComponent(productQuantityPlusButton))
-                .addGap(103, 103, 103)
+                .addGap(64, 64, 64)
                 .addComponent(doneButton, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(51, 51, 51)
                 .addComponent(CancelButton, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(35, 35, 35))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
@@ -303,7 +436,7 @@ public class ProductPanel extends javax.swing.JFrame {
                 .addContainerGap()
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jPanel4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE))
+                    .addComponent(jScrollPane1))
                 .addContainerGap())
         );
 
@@ -368,9 +501,44 @@ public class ProductPanel extends javax.swing.JFrame {
     }//GEN-LAST:event_productQuantityMinusBtnActionPerformed
 
     private void doneButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_doneButtonActionPerformed
-        parent.addProductToBill(productName, selectedSize, selectedToppings, quantity);
-        this.dispose();
+    int unitPrice = BeaPOS.getProductPrice(productName, selectedSize); // if your "size" is your variant
+    if (parent != null) {
+        parent.addOrUpdateBillItem(productName, quantity, unitPrice, selectedSize, selectedToppings);
+    }
+    this.dispose();
     }//GEN-LAST:event_doneButtonActionPerformed
+
+    private void CancelButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CancelButtonActionPerformed
+        this.dispose();
+    }//GEN-LAST:event_CancelButtonActionPerformed
+
+    private void sizeButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_sizeButtonActionPerformed
+       selectedSize = sizeButton.getText();
+    }//GEN-LAST:event_sizeButtonActionPerformed
+
+    private void sizeButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_sizeButton2ActionPerformed
+        selectedSize = sizeButton2.getText();
+    }//GEN-LAST:event_sizeButton2ActionPerformed
+
+    private void sizeButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_sizeButton3ActionPerformed
+       selectedSize = sizeButton3.getText();
+    }//GEN-LAST:event_sizeButton3ActionPerformed
+
+    private void toppingsButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_toppingsButtonActionPerformed
+        selectedToppings = toppingsButton.getText();
+    }//GEN-LAST:event_toppingsButtonActionPerformed
+
+    private void toppingsButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_toppingsButton1ActionPerformed
+        selectedToppings = toppingsButton.getText();
+    }//GEN-LAST:event_toppingsButton1ActionPerformed
+
+    private void toppingsButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_toppingsButton2ActionPerformed
+       selectedToppings = toppingsButton.getText();
+    }//GEN-LAST:event_toppingsButton2ActionPerformed
+
+    private void toppingsButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_toppingsButton3ActionPerformed
+        selectedToppings = toppingsButton.getText();
+    }//GEN-LAST:event_toppingsButton3ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -429,5 +597,9 @@ public class ProductPanel extends javax.swing.JFrame {
     private javax.swing.JToggleButton sizeButton2;
     private javax.swing.JToggleButton sizeButton3;
     private javax.swing.JToggleButton toppingsButton;
+    private javax.swing.JToggleButton toppingsButton1;
+    private javax.swing.JToggleButton toppingsButton2;
+    private javax.swing.JToggleButton toppingsButton3;
+    private javax.swing.JPanel toppingsPanel;
     // End of variables declaration//GEN-END:variables
 }
