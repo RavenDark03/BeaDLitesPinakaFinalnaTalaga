@@ -2680,7 +2680,7 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
         );
         jPanel71Layout.setVerticalGroup(
             jPanel71Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jScrollPane1)
+            .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 695, Short.MAX_VALUE)
         );
 
         jTabbedPane1.addTab("cakes", jPanel71);
@@ -3163,7 +3163,7 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jPanel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jPanel3, javax.swing.GroupLayout.DEFAULT_SIZE, 756, Short.MAX_VALUE)
                 .addContainerGap())
         );
 
@@ -3370,7 +3370,17 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
     }//GEN-LAST:event_payByCashBtnActionPerformed
 
     private void AddMangoBravoToPanelActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AddMangoBravoToPanelActionPerformed
-       
+        String productName = "Mango Bravo";
+    String[] sizes = {"Small", "Medium", "Large"}; // customize as needed
+    String[] toppings = {"Mango Toppings", "Extra Cream"}; // customize as needed
+
+    // Open ProductPanel
+    ProductPanel productPanel = new ProductPanel(productName, sizes, toppings);
+
+    // Option 1: Show as a dialog (recommended for modal behavior)
+    productPanel.setLocationRelativeTo(this);
+    productPanel.setVisible(true);
+
     }//GEN-LAST:event_AddMangoBravoToPanelActionPerformed
 
     private void AddClassicCinnamonRollToPanelActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AddClassicCinnamonRollToPanelActionPerformed

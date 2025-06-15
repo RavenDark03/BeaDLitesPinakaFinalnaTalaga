@@ -13,11 +13,37 @@ public class ProductPanel extends javax.swing.JFrame {
     /**
      * Creates new form ProductPanel
      */
-    public ProductPanel() {
+    private BeaPOS parent;
+    
+    public ProductPanel(BeaPOS parent, String productName, String[] sizes, String[] toppings) {
+        this.parent = parent;
         initComponents();
         setLocationRelativeTo(null);
+        this.productName = productName;
+        this.sizes = sizes;
+        this.toppings = toppings;
+        setUpProductDisplay();
+    }
+    
+    private String productName;
+    private String[] sizes;
+    private String[] toppings;
+    private int quantity = 1;
+    
+    private void setUpProductDisplay() {
+        ProductLabel.setText(productName);
+
+        // Example: set size buttons
+        sizeButton.setText(sizes.length > 0 ? sizes[0] : "");
+        sizeButton2.setText(sizes.length > 1 ? sizes[1] : "");
+        sizeButton3.setText(sizes.length > 2 ? sizes[2] : "");
+
+        
+
+        quantityLabel.setText(String.valueOf(quantity));
     }
 
+    
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -133,6 +159,11 @@ public class ProductPanel extends javax.swing.JFrame {
         doneButton.setFont(new java.awt.Font("Segoe UI Black", 1, 24)); // NOI18N
         doneButton.setForeground(new java.awt.Color(225, 135, 44));
         doneButton.setText("Done");
+        doneButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                doneButtonActionPerformed(evt);
+            }
+        });
 
         productQuantityMinusBtn.setBackground(new java.awt.Color(255, 204, 102));
         productQuantityMinusBtn.setFont(new java.awt.Font("Segoe UI Black", 1, 24)); // NOI18N
@@ -327,12 +358,19 @@ public class ProductPanel extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void productQuantityPlusButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_productQuantityPlusButtonActionPerformed
-
+        quantity++;
+        quantityLabel.setText(String.valueOf(quantity));
     }//GEN-LAST:event_productQuantityPlusButtonActionPerformed
 
     private void productQuantityMinusBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_productQuantityMinusBtnActionPerformed
-
+        if (quantity > 1) quantity--;
+        quantityLabel.setText(String.valueOf(quantity));
     }//GEN-LAST:event_productQuantityMinusBtnActionPerformed
+
+    private void doneButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_doneButtonActionPerformed
+        parent.addProductToBill(productName, selectedSize, selectedToppings, quantity);
+        this.dispose();
+    }//GEN-LAST:event_doneButtonActionPerformed
 
     /**
      * @param args the command line arguments
