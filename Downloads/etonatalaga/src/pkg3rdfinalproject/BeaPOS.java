@@ -1034,7 +1034,7 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
 
         jLabel43.setBackground(new java.awt.Color(225, 135, 44));
         jLabel43.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel43.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Mango bravo.jpg"))); // NOI18N
+        jLabel43.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Mango Bravo.jpg"))); // NOI18N
 
         javax.swing.GroupLayout iconPanelLayout = new javax.swing.GroupLayout(iconPanel);
         iconPanel.setLayout(iconPanelLayout);
@@ -1100,7 +1100,7 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
 
         jLabel45.setBackground(new java.awt.Color(225, 135, 44));
         jLabel45.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel45.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/b81690e5-b1dd-4a5f-8dd0-4d09b24d2ecf.jpg"))); // NOI18N
+        jLabel45.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Red Velvet Cake.jpg"))); // NOI18N
 
         javax.swing.GroupLayout jPanel17Layout = new javax.swing.GroupLayout(jPanel17);
         jPanel17.setLayout(jPanel17Layout);
@@ -1145,7 +1145,7 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
                 .addGroup(jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel16Layout.createSequentialGroup()
                         .addComponent(AddRedVelvetCakeToPanel, javax.swing.GroupLayout.PREFERRED_SIZE, 145, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(0, 3, Short.MAX_VALUE))
+                        .addGap(0, 0, Short.MAX_VALUE))
                     .addComponent(RedVelvetCakelabel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap())
         );
@@ -1167,7 +1167,7 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
         jPanel24.setBackground(new java.awt.Color(255, 255, 153));
 
         jLabel49.setBackground(new java.awt.Color(225, 135, 44));
-        jLabel49.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/strawberry cake.jpg"))); // NOI18N
+        jLabel49.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Strawberry Shortcake.jpg"))); // NOI18N
 
         javax.swing.GroupLayout jPanel24Layout = new javax.swing.GroupLayout(jPanel24);
         jPanel24.setLayout(jPanel24Layout);
@@ -1234,7 +1234,7 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
         jPanel52.setBackground(new java.awt.Color(255, 255, 153));
 
         jLabel82.setBackground(new java.awt.Color(225, 135, 44));
-        jLabel82.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Bento _1.jpg"))); // NOI18N
+        jLabel82.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Bento Cake.jpg"))); // NOI18N
 
         javax.swing.GroupLayout jPanel52Layout = new javax.swing.GroupLayout(jPanel52);
         jPanel52.setLayout(jPanel52Layout);
@@ -1293,7 +1293,7 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
         jPanel28.setBackground(new java.awt.Color(255, 255, 153));
 
         jLabel53.setBackground(new java.awt.Color(225, 135, 44));
-        jLabel53.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/87960fcc-fa36-41bd-92dd-bfa842c9fe36.png"))); // NOI18N
+        jLabel53.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Caramel flan de leche Cake.png"))); // NOI18N
 
         javax.swing.GroupLayout jPanel28Layout = new javax.swing.GroupLayout(jPanel28);
         jPanel28.setLayout(jPanel28Layout);
@@ -1354,7 +1354,7 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
         jPanel32.setBackground(new java.awt.Color(255, 255, 153));
 
         jLabel58.setBackground(new java.awt.Color(225, 135, 44));
-        jLabel58.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/cheesecake(1).jpg"))); // NOI18N
+        jLabel58.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Cheesecake.jpg"))); // NOI18N
 
         javax.swing.GroupLayout jPanel32Layout = new javax.swing.GroupLayout(jPanel32);
         jPanel32.setLayout(jPanel32Layout);
@@ -1414,7 +1414,7 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
         jPanel36.setBackground(new java.awt.Color(255, 255, 153));
 
         jLabel63.setBackground(new java.awt.Color(225, 135, 44));
-        jLabel63.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/per slice cheesee cake.jpg"))); // NOI18N
+        jLabel63.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Slice Cheesecake.jpg"))); // NOI18N
 
         javax.swing.GroupLayout jPanel36Layout = new javax.swing.GroupLayout(jPanel36);
         jPanel36.setLayout(jPanel36Layout);
@@ -1474,7 +1474,7 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
         jPanel40.setBackground(new java.awt.Color(255, 255, 153));
 
         jLabel68.setBackground(new java.awt.Color(225, 135, 44));
-        jLabel68.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/b183dd51-ca7d-43cf-a2e3-da67038c0f2a (1).jpg"))); // NOI18N
+        jLabel68.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Mango Bravo Tub.jpg"))); // NOI18N
 
         javax.swing.GroupLayout jPanel40Layout = new javax.swing.GroupLayout(jPanel40);
         jPanel40.setLayout(jPanel40Layout);
@@ -1535,7 +1535,7 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
         jPanel44.setBackground(new java.awt.Color(255, 255, 153));
 
         jLabel74.setBackground(new java.awt.Color(225, 135, 44));
-        jLabel74.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/minicupcake.jpg"))); // NOI18N
+        jLabel74.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Mini Cupcake.jpg"))); // NOI18N
 
         javax.swing.GroupLayout jPanel44Layout = new javax.swing.GroupLayout(jPanel44);
         jPanel44.setLayout(jPanel44Layout);
@@ -1595,7 +1595,7 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
         jPanel48.setBackground(new java.awt.Color(255, 255, 153));
 
         jLabel78.setBackground(new java.awt.Color(225, 135, 44));
-        jLabel78.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/cupcake.jpg"))); // NOI18N
+        jLabel78.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Pisces Cupcake.jpg"))); // NOI18N
 
         javax.swing.GroupLayout jPanel48Layout = new javax.swing.GroupLayout(jPanel48);
         jPanel48.setLayout(jPanel48Layout);
@@ -1655,7 +1655,7 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
         jPanel56.setBackground(new java.awt.Color(255, 255, 153));
 
         jLabel67.setBackground(new java.awt.Color(225, 135, 44));
-        jLabel67.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Icing cake.jpg"))); // NOI18N
+        jLabel67.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Icing Custom Cake.jpg"))); // NOI18N
 
         javax.swing.GroupLayout jPanel56Layout = new javax.swing.GroupLayout(jPanel56);
         jPanel56.setLayout(jPanel56Layout);
@@ -1715,7 +1715,7 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
         jPanel85.setBackground(new java.awt.Color(255, 255, 153));
 
         jLabel70.setBackground(new java.awt.Color(225, 135, 44));
-        jLabel70.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/minimalist.jpg"))); // NOI18N
+        jLabel70.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Minimalist Custom Cake.jpg"))); // NOI18N
 
         javax.swing.GroupLayout jPanel85Layout = new javax.swing.GroupLayout(jPanel85);
         jPanel85.setLayout(jPanel85Layout);
@@ -1783,7 +1783,7 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
         jPanel89.setBackground(new java.awt.Color(255, 255, 153));
 
         jLabel77.setBackground(new java.awt.Color(225, 135, 44));
-        jLabel77.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Fondant.jpg"))); // NOI18N
+        jLabel77.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Fondant Custom Cake.jpg"))); // NOI18N
 
         javax.swing.GroupLayout jPanel89Layout = new javax.swing.GroupLayout(jPanel89);
         jPanel89.setLayout(jPanel89Layout);
@@ -1843,7 +1843,7 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
         jPanel93.setBackground(new java.awt.Color(255, 255, 153));
 
         jLabel73.setBackground(new java.awt.Color(225, 135, 44));
-        jLabel73.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/YemaCake.jpg"))); // NOI18N
+        jLabel73.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Yema Cake.jpg"))); // NOI18N
 
         javax.swing.GroupLayout jPanel93Layout = new javax.swing.GroupLayout(jPanel93);
         jPanel93.setLayout(jPanel93Layout);
@@ -1956,7 +1956,7 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
                 .addGroup(cakesPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(jPanel88, javax.swing.GroupLayout.PREFERRED_SIZE, 121, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jPanel92, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addContainerGap(474, Short.MAX_VALUE))
+                .addContainerGap(495, Short.MAX_VALUE))
         );
 
         jScrollPane1.setViewportView(cakesPanel);
@@ -1969,7 +1969,9 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
         );
         jPanel71Layout.setVerticalGroup(
             jPanel71Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 695, Short.MAX_VALUE)
+            .addGroup(jPanel71Layout.createSequentialGroup()
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 753, Short.MAX_VALUE)
+                .addContainerGap())
         );
 
         jTabbedPane1.addTab("cakes", jPanel71);
@@ -2186,7 +2188,7 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
 
         jLabel89.setBackground(new java.awt.Color(225, 135, 44));
         jLabel89.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel89.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Cinnamon.jpg"))); // NOI18N
+        jLabel89.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Classic Cinnamon Roll.jpg"))); // NOI18N
 
         javax.swing.GroupLayout jPanel73Layout = new javax.swing.GroupLayout(jPanel73);
         jPanel73.setLayout(jPanel73Layout);
@@ -2252,7 +2254,7 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
 
         jLabel92.setBackground(new java.awt.Color(225, 135, 44));
         jLabel92.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel92.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Milky donut.jpg"))); // NOI18N
+        jLabel92.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Milky Cheese Donut.jpg"))); // NOI18N
 
         javax.swing.GroupLayout jPanel77Layout = new javax.swing.GroupLayout(jPanel77);
         jPanel77.setLayout(jPanel77Layout);
@@ -2431,8 +2433,8 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
         jPanel11Layout.setVerticalGroup(
             jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel11Layout.createSequentialGroup()
-                .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 1148, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, Short.MAX_VALUE))
+                .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 382, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 377, Short.MAX_VALUE))
         );
 
         jTabbedPane1.addTab("breads", jPanel11);
@@ -2580,7 +2582,7 @@ public void addCustomCakeToBill(String cakeSize, int quantity, int price) {
     String productName = "Mango Bravo";
     String[] sizes = PRODUCT_SIZES.getOrDefault(productName, new String[]{"Default Size"});
     String[] toppings = PRODUCT_TOPPINGS.getOrDefault(productName, new String[]{"None"});
-
+    
     ProductPanel productPanel = new ProductPanel(this, productName, sizes, toppings);
     productPanel.setLocationRelativeTo(this);
     productPanel.setVisible(true);
